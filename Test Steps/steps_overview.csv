@@ -1,117 +1,45 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Complete Shopping and Checkout Process in React Ecommerce Application,"Navigate through the homepage, view products, add items to the cart, and proceed to checkout. Fill in billing and shipping information, and complete the purchase.","Step 1: Navigate to /
-Step 2: Click on link home
-Step 3: Click on link products -> Navigate to page '/product'
-Step 4: Click on link about -> Navigate to page '/about'
-Step 5: Click on link contact -> Navigate to page '/contact'
-Step 6: Click on link login -> Navigate to page '/login'
-Step 7: Click on link register -> Navigate to page '/register'
-Step 8: Click on link cart -> Navigate to page '/cart'
-Step 9: Click on link reactEcommerce -> Navigate to page '/'
-Step 10: Click on image card
-Step 11: Click on link buyNow (buyNow) -> Navigate to page '/product/*'
-Step 12: Click on button addToCart
-Step 13: Click on link goToCart -> Navigate to page '/cart'
-Step 14: Click on link goToCheckout -> Navigate to page '/checkout'
-Step 15: Click on div firstName
-Step 16: Click on input firstName
-Step 17: Enter input value in input firstName
-Step 18: Click on input lastName
-Step 19: Enter input value in input lastName
-Step 20: Click on input email
-Step 21: Enter input value in input email
-Step 22: Click on input address
-Step 23: Enter input value in input address
+1,Complete Purchase Process with Billing and Shipping Information,"Navigate to the home page, select a product, add it to the cart, and proceed to checkout. Fill in billing and shipping details, and verify the home page after completion.","Step 1: Navigate to /
+Step 2: Click on image card
+Step 3: Click on link buyNow -> Navigate to page '/product/*'
+Step 4: Click on button addToCart
+Step 5: Click on button addToCart
+Step 6: Click on link cart -> Navigate to page '/cart'
+Step 7: Click on link goToCheckout -> Navigate to page '/checkout'
+Step 8: Click on form checkout
+Step 9: Click on input firstName
+Step 10: Enter input value in input firstName
+Step 11: Click on input lastName
+Step 12: Enter input value in input lastName
+Step 13: Click on div billingDetails
+Step 14: Click on input address
+Step 15: Enter input value in input address
+Step 16: Click on input nameOnCard
+Step 17: Enter input value in input nameOnCard
+Step 18: Click on input creditCardNumber
+Step 19: Enter input value in input creditCardNumber
+Step 20: Click on input expiration
+Step 21: Enter input value in input expiration
+Step 22: Click on input cvv
+Step 23: Enter input value in input cvv
 Step 24: Click on input address2
-Step 25: Enter input value in input address2
-Step 26: Select option with input value from select country
-Step 27: Select option with input value from select state
-Step 28: Click on input zip
-Step 29: Enter input value in input zip
-Step 30: Click on input nameOnCard
-Step 31: Enter input value in input nameOnCard
-Step 32: Click on input creditCardNumber
-Step 33: Enter input value in input creditCardNumber
-Step 34: Click on div expiration
-Step 35: Click on input expiration
-Step 36: Enter input value in input expiration
-Step 37: Click on input cvv
-Step 38: Enter input value in input cvv
-Step 39: Click on form checkout
-Step 40: Click on form checkout
-Step 41: Click on form checkout
-Step 42: Click on input email
-Step 43: Enter input value in input email
-Step 44: Click on input nameOnCard
-Step 45: Click on input nameOnCard
-Step 46: Click on input nameOnCard
-Step 47: Enter input value in input nameOnCard
-Step 48: Press key Tab on input nameOnCard
-Step 49: Press key Tab on input nameOnCard
-Step 50: Enter input value in input creditCardNumber
-Step 51: Click on form checkout
-Step 52: Click on input address
-Step 53: Enter input value in input address
-Step 54: Click on input firstName
-Step 55: Enter input value in input firstName
-Step 56: Press key Tab on input firstName
-Step 57: Press key Tab on input firstName
-Step 58: Enter input value in input lastName
-Step 59: Click on div orderSummary
-Step 60: Click on form checkout
-Step 61: Click on input address
-Step 62: Enter input value in input address
-Step 63: Click on input address2
-Step 64: Enter input value in input address2
-Step 65: Click on input address
-Step 66: Enter input value in input address
-Step 67: Click on input expiration
-Step 68: Click on input expiration
-Step 69: Enter input value in input expiration
-Step 70: Click on form checkout
-Step 71: Click on form checkout
-Step 72: Click on form checkout
-Step 73: Click on form checkout
-Step 74: Click on input cvv
-Step 75: Click on input cvv
-Step 76: Click on input cvv
-Step 77: Enter input value in input cvv
-Step 78: Click on form checkout
-Step 79: Click on form checkout
-Step 80: Click on div checkoutForm
-Step 81: Click on link register -> Navigate to page '/register'
-Step 82: Login -> Navigate to page '/login'
-Step 83: Login
-Step 84: Click on link home -> Navigate to page '/'
-Step 85: Click on link home
-Step 86: Click on div mensCasual
-Step 87: Click on link buyNow (buyNow2)
-Step 88: Click on link buyNow (buyNow3)
-Step 89: Click on link buyNow (buyNow4) -> Navigate to page '/product/*'
-Step 90: Click on image productCard (productCard)
-Step 91: Click on div buyNowAddToCart (buyNowAddToCart)
-Step 92: Click on link buyNow (buyNow)
-Step 93: Click on div buyNowAddToCart (buyNowAddToCart2)
-Step 94: Click on image productCard (card)
-Step 95: Click on link buyNow (buyNow2)
-Step 96: Click on link buyNow (buyNow2)
-Step 97: Click on image productCard (card)
-Step 98: Click on image productCard (card)
-Step 99: Click on image productCard (card)
-Step 100: Click on image productCard (productCard)
-Step 101: Click on image productCard (card2)
-Step 102: Click on image card3
-Step 103: Click on image card3
-Step 104: Click on div productActions
-Step 105: Click on image productCard (productCard)
-Step 106: Click on div buyNowAddToCart (buyNowAddToCart2)
-Step 107: Click on button addToCart2
-Step 108: Click on button addToCart2
-Step 109: Click on button addToCart2
-Step 110: Click on link cart -> Navigate to page '/cart'
-Step 111: Click on link goToCheckout -> Navigate to page '/checkout'
-Step 112: Click on div billingAddress
-Step 113: Click on form checkout
-Step 114: Click on link reactEcommerce -> Navigate to page ''
-Step 115: Take full page screenshot as checkpoint
+Step 25: Select option with input value from select country
+Step 26: Select option with input value from select state
+Step 27: Click on input zip
+Step 28: Enter input value in input zip
+Step 29: Click on div orderSummaryDetails
+Step 30: Click on div billingDetails
+Step 31: Click on input email
+Step 32: Enter input value in input email
+Step 33: Click on div orderSummaryDetails
+Step 34: Click on input email
+Step 35: Enter input value in input email
+Step 36: Click on div address
+Step 37: Click on input firstName
+Step 38: Enter input value in input firstName
+Step 39: Click on div orderSummaryDetails
+Step 40: Click on div orderSummary
+Step 41: Click on div orderSummaryDetails
+Step 42: Click on link reactEcommerce -> Navigate to page '/'
+Step 43: Take full page screenshot as checkpoint
 ",High,NEW

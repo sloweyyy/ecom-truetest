@@ -30,6 +30,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Add to Cart</value>
-        <webElementGuid>025ee98e-a00a-4d01-8560-93b8bfeff023</webElementGuid>
+        <webElementGuid>1dc990c1-21f8-4677-98be-c4489acbf152</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
