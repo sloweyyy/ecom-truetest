@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link about -> Navigate to page '/about'",
+        "step 3: Click on link products -> Navigate to page '/product'",
+        "step 4: Click on div productButtons",
+        "step 5: Click on link login -> Navigate to page '/login'",
+        "step 6: Login",
+        "step 7: Click on div loginForm",
+        "step 8: Click on link register -> Navigate to page '/register'",
+        "step 9: Click on link login -> Navigate to page '/login'",
+        "step 10: Click on div password",
+        "step 11: Login -> Navigate to page '/register'",
+        "step 12: Click on input fullName",
+        "step 13: Click on input fullName",
+        "step 14: Click on input fullName",
+        "step 15: Click on input fullName",
+        "step 16: Click on link reactEcommerce -> Navigate to page ''",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,84 +1,60 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Comprehensive User Journey through E commerce Application,"Navigate through the application, login, explore products, contact support, and complete a purchase. Test cart functionality and ensure a seamless user experience.","Step 1: Navigate to /
-Step 2: Click on link login -> Navigate to page '/login'
-Step 3: Click on input email
-Step 4: Click on link reactEcommerce -> Navigate to page '/'
-Step 5: Click on link products -> Navigate to page '/product'
-Step 6: Click on link products
-Step 7: Click on link about -> Navigate to page '/about'
-Step 8: Click on link contact -> Navigate to page '/contact'
-Step 9: Click on input name
-Step 10: Enter input value in input name
-Step 11: Click on input email
-Step 12: Enter input value in input email
-Step 13: Press key Tab on input email
-Step 14: Enter input value in textarea message
-Step 15: Click on div send
-Step 16: Click on div send
-Step 17: Click on div send
-Step 18: Click on textarea message
-Step 19: Click on link cart -> Navigate to page '/cart'
-Step 20: Click on link goToCheckout -> Navigate to page '/login'
-Step 21: Click on link register -> Navigate to page '/register'
-Step 22: Click on link cart -> Navigate to page '/cart'
-Step 23: Click on link about
-Step 24: Click on link contact -> Navigate to page '/contact'
-Step 25: Click on link home -> Navigate to page '/'
-Step 26: Click on link cart -> Navigate to page '/cart'
-Step 27: Click on link goToCheckout -> Navigate to page '/login'
-Step 28: Click on div demoCredentials
-Step 29: Click on div demoCredentials
-Step 30: Click on div demoCredentials
-Step 31: Click on div demoCredentials
-Step 32: Click on div demoCredentials
-Step 33: Click on div demoCredentials
-Step 34: Click on div emailAddress
-Step 35: Click on input email
-Step 36: Enter input value in input email
-Step 37: Click on div demoCredentials
-Step 38: Click on div demoCredentials
-Step 39: Click on div demoCredentials
-Step 40: Click on div demoCredentials
-Step 41: Click on div demoCredentials
-Step 42: Click on div demoCredentials
-Step 43: Click on div password
-Step 44: Click on input password
-Step 45: Enter input value in input password
-Step 46: Click on button login -> Navigate to page '/'
-Step 47: Click on link cart -> Navigate to page '/cart'
-Step 48: Click on link goToCheckout -> Navigate to page '/checkout'
-Step 49: Click on input firstName
-Step 50: Enter input value in input firstName
-Step 51: Click on input lastName
-Step 52: Enter input value in input lastName
-Step 53: Click on div billingDetails
-Step 54: Click on input address
-Step 55: Enter input value in input address
-Step 56: Click on input address2
-Step 57: Enter input value in input address2
-Step 58: Select option with input value from select country
-Step 59: Select option with input value from select state
-Step 60: Click on input zip
-Step 61: Enter input value in input zip
-Step 62: Click on input nameOnCard
-Step 63: Enter input value in input nameOnCard
-Step 64: Click on input creditCardNumber
-Step 65: Enter input value in input creditCardNumber
-Step 66: Click on input expiration
-Step 67: Enter input value in input expiration
-Step 68: Click on input cvv
-Step 69: Enter input value in input cvv
-Step 70: Click on button placeOrder
-Step 71: Click on link continueShopping -> Navigate to page '/'
-Step 72: Click on button toggleNavigation
-Step 73: Click on link products -> Navigate to page '/product'
-Step 74: Click on button addToCart (addToCart)
-Step 75: Click on button addToCart (addToCart2)
-Step 76: Click on button addToCart (addToCart3)
-Step 77: Click on button toggleNavigation
-Step 78: Click on link cart -> Navigate to page '/cart'
-Step 79: Click on button clearCart
-Step 80: Click on div cartEmpty
-Step 81: Click on link cart -> Navigate to page ''
-Step 82: Take full page screenshot as checkpoint
+1,Complete Checkout Process for Jewelry Purchase,"Navigate to the jewelry section, select a product, and proceed to checkout. Fill in personal and payment details to complete the purchase.","Step 1: Navigate to /
+Step 2: Click on button jewelery
+Step 3: Click on image card
+Step 4: Click on link buyNow -> Navigate to page '/product/*'
+Step 5: Click on link goToCart -> Navigate to page '/cart'
+Step 6: Click on link goToCheckout
+Step 7: Click on link goToCheckout -> Navigate to page '/checkout'
+Step 8: Click on input firstName
+Step 9: Enter input value in input firstName
+Step 10: Click on input lastName
+Step 11: Enter input value in input lastName
+Step 12: Click on input email
+Step 13: Enter input value in input email
+Step 14: Click on input address
+Step 15: Click on input address2
+Step 16: Enter input value in input address2
+Step 17: Select option with input value from select country
+Step 18: Select option with input value from select state
+Step 19: Click on input zip
+Step 20: Enter input value in input zip
+Step 21: Click on input nameOnCard
+Step 22: Enter input value in input nameOnCard
+Step 23: Click on input creditCardNumber
+Step 24: Enter input value in input creditCardNumber
+Step 25: Click on input expiration
+Step 26: Enter input value in input expiration
+Step 27: Click on input cvv
+Step 28: Enter input value in input cvv
+Step 29: Click on form checkout
+Step 30: Click on input address
+Step 31: Enter input value in input address
+Step 32: Click on input address2
+Step 33: Enter input value in input address2
+Step 34: Click on form checkout
+Step 35: Click on form checkout
+Step 36: Click on form checkout
+Step 37: Click on header payment
+Step 38: Click on link reactEcommerce -> Navigate to page '/'
+Step 39: Click on div cardImgOverlay
+Step 40: Take full page screenshot as checkpoint
 ",High,NEW
+2,User Registration and Login Flow,"Navigate to the about page, explore products, and attempt to register. Then, log in and verify the home page after registration.","Step 1: Navigate to /
+Step 2: Click on link about -> Navigate to page '/about'
+Step 3: Click on link products -> Navigate to page '/product'
+Step 4: Click on div productButtons
+Step 5: Click on link login -> Navigate to page '/login'
+Step 6: Login
+Step 7: Click on div loginForm
+Step 8: Click on link register -> Navigate to page '/register'
+Step 9: Click on link login -> Navigate to page '/login'
+Step 10: Click on div password
+Step 11: Login -> Navigate to page '/register'
+Step 12: Click on input fullName
+Step 13: Click on input fullName
+Step 14: Click on input fullName
+Step 15: Click on input fullName
+Step 16: Click on link reactEcommerce -> Navigate to page ''
+Step 17: Take full page screenshot as checkpoint
+",Trivial,NEW

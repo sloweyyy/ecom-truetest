@@ -3,102 +3,102 @@
     <comment></comment>
     <customField>
         <flow>
-            <id>b2d9d2b4-3927-4530-ab31-2afee1273a9b</id>
+            <id>810eca65-c919-46b6-aa14-8f7944ea095b</id>
         </flow>
     </customField>
-    <description>Navigate to the home page, select a product, add it to the cart, and proceed to checkout. Fill in billing and shipping details, and verify the home page after completion.</description>
-    <name>TC1-Complete Purchase Process with Billing and Shipping Information</name>
+    <description>Navigate to the jewelry section, select a product, and proceed to checkout. Fill in personal and payment details to complete the purchase.</description>
+    <name>TC1-Complete Checkout Process for Jewelry Purchase</name>
     <origin>TRUETEST</origin>
     <tag></tag>
-    <testCaseGuid>7a395b25-c3bc-4c69-9797-0b41f915da05</testCaseGuid>
+    <testCaseGuid>e0252760-a93b-4849-92af-4dcfe369b031</testCaseGuid>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>16aff133-9d2d-4eab-bb3f-675f40b18dfb</id>
+        <id>5fcad1f0-045c-42ca-8517-51c2ca82e451</id>
         <masked>false</masked>
         <name>input_address</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>1f72dba0-a242-4d95-a1ea-242340b0a82b</id>
+        <id>dc9ae485-fd5f-4b57-8155-4c96e3bcac9a</id>
+        <masked>false</masked>
+        <name>input_address2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>42bdd759-ecd8-49e3-89d4-2db7cda43571</id>
+        <masked>false</masked>
+        <name>input_address2_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>41f74953-7e8a-48ce-ab00-bd1b28bf38d2</id>
         <masked>false</masked>
         <name>input_creditCardNumber</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>5a916042-feda-4028-b8b9-b764d259fc60</id>
+        <id>c90dc4a8-b0a9-465f-94e7-a77d793786f7</id>
         <masked>false</masked>
         <name>input_cvv</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>4618dc90-2cf3-47d0-ac54-ae03d381b1f7</id>
+        <id>0bf08b57-b371-43ef-950e-1080098fbfc5</id>
         <masked>false</masked>
         <name>input_email</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>fef83975-9b75-4f62-b6f2-1f72f252e03b</id>
-        <masked>false</masked>
-        <name>input_email_1</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>72ec84a9-471b-4970-aed5-c8a1afb0d29f</id>
+        <id>16d1c251-e561-4ec6-bd4f-e5688fbcf1db</id>
         <masked>false</masked>
         <name>input_expiration</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>2b3f0281-7a7a-499c-bc04-70a0583a18a5</id>
+        <id>31c89d69-c01d-466c-b476-12e083808b26</id>
         <masked>false</masked>
         <name>input_firstName</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>2b144118-98a3-46c7-856e-ae6774f23ac2</id>
-        <masked>false</masked>
-        <name>input_firstName_1</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>cf9ce494-8a3f-4aad-97d9-7acb8de55c7f</id>
+        <id>1b9f4f55-9f35-49d2-97df-6499f2e4d9cf</id>
         <masked>false</masked>
         <name>input_lastName</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>86414c07-7c9c-4c1a-abcb-dc80c5917d40</id>
+        <id>e57f1e98-c452-4e03-9a49-4d64e79bdc95</id>
         <masked>false</masked>
         <name>input_nameOnCard</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>be9ee2ef-229d-483b-b371-62471333ea90</id>
+        <id>65bbf776-40c4-43b4-9a1e-4f0e253a86a2</id>
         <masked>false</masked>
         <name>input_zip</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>8c04ce5f-7fec-4132-a60c-37e75c723e0d</id>
+        <id>616de4ca-7eab-4058-aa62-ac1d8b7f25fa</id>
         <masked>false</masked>
         <name>select_country</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>55186524-e79a-4803-8e5d-58f91b987042</id>
+        <id>a6bde3b4-3768-4a58-a219-89597a085a13</id>
         <masked>false</masked>
         <name>select_state</name>
     </variable>

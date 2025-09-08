@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>832f1ead-b6a2-44dc-9f7a-6d19dbc54081</id>
+        </flow>
+    </customField>
+    <description>Navigate to the about page, explore products, and attempt to register. Then, log in and verify the home page after registration.</description>
+    <name>TC2-User Registration and Login Flow</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7630c161-90e3-44b1-a295-0b5999fc0960</testCaseGuid>
+</TestCaseEntity>

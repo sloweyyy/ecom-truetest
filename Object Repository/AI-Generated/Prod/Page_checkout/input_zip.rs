@@ -30,7 +30,7 @@
         <name>id</name>
         <type>Main</type>
         <value>zip</value>
-        <webElementGuid>1dc990c1-21f8-4677-98be-c4489acbf152</webElementGuid>
+        <webElementGuid>0f07320f-a967-406a-8732-271e70f681d1</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -38,6 +38,6 @@
         <name>type</name>
         <type>Main</type>
         <value>text</value>
-        <webElementGuid>1dc990c1-21f8-4677-98be-c4489acbf152</webElementGuid>
+        <webElementGuid>0f07320f-a967-406a-8732-271e70f681d1</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
