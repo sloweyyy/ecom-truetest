@@ -1,147 +1,256 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-    <comment></comment>
-    <customField>
-        <flow>
-            <id>e0d8a382-8549-4bd7-8720-2d6ac3904168</id>
-        </flow>
-    </customField>
-    <description>Navigate through the application, login, explore products, contact support, and complete a purchase. Test cart functionality and ensure a seamless user experience.</description>
-    <name>TC1-Comprehensive User Journey through E commerce Application</name>
-    <origin>TRUETEST</origin>
-    <tag></tag>
-    <testCaseGuid>784642b0-ab01-4599-b026-dc65765ff24f</testCaseGuid>
-    <variable>
-        <defaultValue>'\\\\31 '</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>fe152de5-59e9-4a7f-8690-ce84dd75749d</id>
-        <masked>false</masked>
-        <name>button_addToCart_id</name>
-    </variable>
-    <variable>
-        <defaultValue>'\\\\32 '</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>15059b0b-8600-4fd8-89a6-f6e3227d27ea</id>
-        <masked>false</masked>
-        <name>button_addToCart_id_1</name>
-    </variable>
-    <variable>
-        <defaultValue>'\\\\33 '</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>9e0c56bb-b2f5-4121-b74d-ba818ad1c053</id>
-        <masked>false</masked>
-        <name>button_addToCart_id_2</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>6cf863ed-d152-45af-a047-54227ccb8fe7</id>
-        <masked>false</masked>
-        <name>input_address</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>2ab41b6a-bc22-4fc2-a82d-66049253f647</id>
-        <masked>false</masked>
-        <name>input_address2</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>98dad725-448c-4d8c-abf1-478b083ffda9</id>
-        <masked>false</masked>
-        <name>input_creditCardNumber</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>f98ee863-8ad6-4b3d-881e-c4b914f03609</id>
-        <masked>false</masked>
-        <name>input_cvv</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>e5cc9e0d-7284-42f2-b8bd-ad6d95cd21be</id>
-        <masked>false</masked>
-        <name>input_email</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>9035aab5-a1cf-4fab-a2c0-b4a13a95785a</id>
-        <masked>false</masked>
-        <name>input_email_1</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>8ce09389-362a-416b-9994-452fbbe08d22</id>
-        <masked>false</masked>
-        <name>input_expiration</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>25482d6c-ae10-4e28-aa18-1afd6dc56023</id>
-        <masked>false</masked>
-        <name>input_firstName</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>0f13aee2-616f-48f9-b84b-982070152f8e</id>
-        <masked>false</masked>
-        <name>input_lastName</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>63dda441-2e67-4c3e-90ed-590952762214</id>
-        <masked>false</masked>
-        <name>input_name</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>3025e915-331d-4844-9d87-2a6108cb3e55</id>
-        <masked>false</masked>
-        <name>input_nameOnCard</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>28b8a440-cdbf-4040-a746-602509a074a5</id>
-        <masked>false</masked>
-        <name>input_password</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>eaaae06a-f375-41a9-940c-f9c26a19cbe9</id>
-        <masked>false</masked>
-        <name>input_zip</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>3d88fe8a-d5ae-45d0-ab09-ddf080023462</id>
-        <masked>false</masked>
-        <name>select_country</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>21d7e4c6-6446-459f-bfd3-c3048b864ff7</id>
-        <masked>false</masked>
-        <name>select_state</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
-        <id>d95821ec-0019-48fb-ac8f-7abd647b1da9</id>
-        <masked>false</masked>
-        <name>textarea_message</name>
-    </variable>
+   <description>Navigate through the application, login, explore products, contact support, and complete a purchase. Test cart functionality and ensure a seamless user experience.</description>
+   <name>TC1-Comprehensive User Journey through E commerce Application</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>784642b0-ab01-4599-b026-dc65765ff24f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe152de5-59e9-4a7f-8690-ce84dd75749d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15059b0b-8600-4fd8-89a6-f6e3227d27ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e0c56bb-b2f5-4121-b74d-ba818ad1c053</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cf863ed-d152-45af-a047-54227ccb8fe7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ab41b6a-bc22-4fc2-a82d-66049253f647</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98dad725-448c-4d8c-abf1-478b083ffda9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f98ee863-8ad6-4b3d-881e-c4b914f03609</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5cc9e0d-7284-42f2-b8bd-ad6d95cd21be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9035aab5-a1cf-4fab-a2c0-b4a13a95785a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ce09389-362a-416b-9994-452fbbe08d22</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25482d6c-ae10-4e28-aa18-1afd6dc56023</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f13aee2-616f-48f9-b84b-982070152f8e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>63dda441-2e67-4c3e-90ed-590952762214</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3025e915-331d-4844-9d87-2a6108cb3e55</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28b8a440-cdbf-4040-a746-602509a074a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eaaae06a-f375-41a9-940c-f9c26a19cbe9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d88fe8a-d5ae-45d0-ab09-ddf080023462</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21d7e4c6-6446-459f-bfd3-c3048b864ff7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d95821ec-0019-48fb-ac8f-7abd647b1da9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'\\\\31 '</defaultValue>
+      <description>Dynamic locator variable</description>
+      <id>fe152de5-59e9-4a7f-8690-ce84dd75749d</id>
+      <masked>false</masked>
+      <name>button_addToCart_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'\\\\32 '</defaultValue>
+      <description>Dynamic locator variable</description>
+      <id>15059b0b-8600-4fd8-89a6-f6e3227d27ea</id>
+      <masked>false</masked>
+      <name>button_addToCart_id_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'\\\\33 '</defaultValue>
+      <description>Dynamic locator variable</description>
+      <id>9e0c56bb-b2f5-4121-b74d-ba818ad1c053</id>
+      <masked>false</masked>
+      <name>button_addToCart_id_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description>Input data variable</description>
+      <id>6cf863ed-d152-45af-a047-54227ccb8fe7</id>
+      <masked>false</masked>
+      <name>input_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description>Input data variable</description>
+      <id>2ab41b6a-bc22-4fc2-a82d-66049253f647</id>
+      <masked>false</masked>
+      <name>input_address2</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description>Input data variable</description>
+      <id>98dad725-448c-4d8c-abf1-478b083ffda9</id>
+      <masked>false</masked>
+      <name>input_creditCardNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description>Input data variable</description>
+      <id>f98ee863-8ad6-4b3d-881e-c4b914f03609</id>
+      <masked>false</masked>
+      <name>input_cvv</name>
+   </variable>
+   <variable>
+      <defaultValue>'demo@example.com'</defaultValue>
+      <description>Input data variable</description>
+      <id>e5cc9e0d-7284-42f2-b8bd-ad6d95cd21be</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'demo@example.com'</defaultValue>
+      <description>Input data variable</description>
+      <id>9035aab5-a1cf-4fab-a2c0-b4a13a95785a</id>
+      <masked>false</masked>
+      <name>input_email_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description>Input data variable</description>
+      <id>8ce09389-362a-416b-9994-452fbbe08d22</id>
+      <masked>false</masked>
+      <name>input_expiration</name>
+   </variable>
+   <variable>
+      <defaultValue>'demo'</defaultValue>
+      <description>Input data variable</description>
+      <id>25482d6c-ae10-4e28-aa18-1afd6dc56023</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'demo'</defaultValue>
+      <description>Input data variable</description>
+      <id>0f13aee2-616f-48f9-b84b-982070152f8e</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'demo demo'</defaultValue>
+      <description>Input data variable</description>
+      <id>63dda441-2e67-4c3e-90ed-590952762214</id>
+      <masked>false</masked>
+      <name>input_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'demo demo'</defaultValue>
+      <description>Input data variable</description>
+      <id>3025e915-331d-4844-9d87-2a6108cb3e55</id>
+      <masked>false</masked>
+      <name>input_nameOnCard</name>
+   </variable>
+   <variable>
+      <defaultValue>'demo123'</defaultValue>
+      <description>Input data variable</description>
+      <id>28b8a440-cdbf-4040-a746-602509a074a5</id>
+      <masked>false</masked>
+      <name>input_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description>Input data variable</description>
+      <id>eaaae06a-f375-41a9-940c-f9c26a19cbe9</id>
+      <masked>false</masked>
+      <name>input_zip</name>
+   </variable>
+   <variable>
+      <defaultValue>'India'</defaultValue>
+      <description>Input data variable</description>
+      <id>3d88fe8a-d5ae-45d0-ab09-ddf080023462</id>
+      <masked>false</masked>
+      <name>select_country</name>
+   </variable>
+   <variable>
+      <defaultValue>'Punjab'</defaultValue>
+      <description>Input data variable</description>
+      <id>21d7e4c6-6446-459f-bfd3-c3048b864ff7</id>
+      <masked>false</masked>
+      <name>select_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description>Input data variable</description>
+      <id>d95821ec-0019-48fb-ac8f-7abd647b1da9</id>
+      <masked>false</masked>
+      <name>textarea_message</name>
+   </variable>
 </TestCaseEntity>

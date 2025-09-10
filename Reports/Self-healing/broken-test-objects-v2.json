@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AI-Generated/Prod/Page_register/input_fullName",
+      "brokenLocator": "internal:label\u003d\\\"Full Name\\\"s",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//body/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AI-Generated/Prod/Page_register/input_fullName_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AI-Generated/Staging/Page_contact/textarea_message",
+      "brokenLocator": "internal:label\u003d\\\"To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings\\\"s",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//body/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/textarea[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AI-Generated/Staging/Page_contact/textarea_message_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AI-Generated/Staging/Page_contact/link_cart",
+      "brokenLocator": "a \u003e\u003e internal:text\u003d\\\"Cart (1)\\\"s",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//body/div[1]/nav[1]/div[1]/div[1]/div[1]/a[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AI-Generated/Staging/Page_contact/link_cart_XPATH.png"
+    }
+  ]
 }
