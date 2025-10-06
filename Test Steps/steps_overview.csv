@@ -1,4 +1,34 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
+12,Explore Products and Login from Home Page,"Navigate to the home page, explore the about page and products, then log in to verify successful navigation back to the home page.","Step 1: Navigate to /
+Step 2: Navigate to about page and explore products and login
+	- Step 1: Click on link about -> Navigate to page '/about'
+	- Step 2: Click on link products -> Navigate to page '/product'
+	- Step 3: Click on button womensClothing
+	- Step 4: Click on link login -> Navigate to page '/login'
+	- Step 5: Click on link login
+Step 3: Login -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+7,Purchase Jewelry Item and Return to Home Page,"From the home page, navigate to the jewelry section, select a product, buy it, and return to the home page to verify navigation.","Step 1: Navigate to /
+Step 2: Click on button jewelery
+Step 3: Click on image card
+Step 4: Click on link buyNow -> Navigate to page '/product/*'
+Step 5: Click on link goToCart -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+13,Register and Login from Home Page,"Navigate to the home page, explore the about page, log in, register a new account, and log in again to verify successful navigation back to the home page.","Step 1: Navigate to /
+Step 2: Navigate to about page and explore products and login
+	- Step 1: Click on link about -> Navigate to page '/about'
+	- Step 2: Click on link products -> Navigate to page '/product'
+	- Step 3: Click on button womensClothing
+	- Step 4: Click on link login -> Navigate to page '/login'
+	- Step 5: Click on link login
+Step 3: Login
+Step 4: Click on link register -> Navigate to page '/register'
+Step 5: Click on link login -> Navigate to page '/login'
+Step 6: Login -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
 1,Complete Checkout Process for Jewelry Purchase,"Navigate to the jewelry section, select a product, and proceed to checkout. Fill in personal and payment details to complete the purchase.","Step 1: Navigate to /
 Step 2: Click on button jewelery
 Step 3: Click on image card
@@ -39,7 +69,233 @@ Step 37: Click on header payment
 Step 38: Click on link reactEcommerce -> Navigate to page '/'
 Step 39: Click on div cardImgOverlay
 Step 40: Take full page screenshot as checkpoint
-",High,NEW
+",High,STABLE
+8,Add Jewelry Product to Cart and Checkout,"Navigate to the home page, select a jewelry product, add it to the cart, and proceed to checkout to verify the completion.","Step 1: Navigate to /
+Step 2: Click on button jewelery
+Step 3: Click on image card
+Step 4: Click on link buyNow -> Navigate to page '/product/*'
+Step 5: Click on link goToCart
+Step 6: Click on button addToCart
+Step 7: Click on link cart (cart) -> Navigate to page '/cart'
+Step 8: Click on link goToCheckout -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Medium,NEW
+9,Login and Explore Products from Home Page,"Navigate to the home page, access the about page, explore products, and perform login actions. Verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link about -> Navigate to page '/about'
+Step 3: Click on link products -> Navigate to page '/product'
+Step 4: Click on button womensClothing
+Step 5: Click on link login -> Navigate to page '/login'
+Step 6: Click on form login
+Step 7: Click on link register -> Navigate to page '/register'
+Step 8: Click on link login -> Navigate to page '/login'
+Step 9: Login
+Step 10: Click on link reactEcommerce -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Medium,NEW
+10,Login and Navigate to Home Page from About Page,"Navigate to the home page, explore the about page, and perform login actions. Verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Navigate to about page and explore products and login
+	- Step 1: Click on link about -> Navigate to page '/about'
+	- Step 2: Click on link products -> Navigate to page '/product'
+	- Step 3: Click on button womensClothing
+	- Step 4: Click on link login -> Navigate to page '/login'
+	- Step 5: Click on link login
+Step 3: Login
+Step 4: Click on link register -> Navigate to page '/register'
+Step 5: Click on link login -> Navigate to page '/login'
+Step 6: Click on input password -> Navigate to page '/'
+Step 7: Click on nav navigation -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Medium,NEW
+14,Explore About Page and Perform User Registration and Login,"Navigate to the home page, explore the about page, and log in. Register a new user and return to the home page. Verify the home page loads correctly.","Step 1: Navigate to /
+Step 2: Navigate to about page and explore products and login
+	- Step 1: Click on link about -> Navigate to page '/about'
+	- Step 2: Click on link products -> Navigate to page '/product'
+	- Step 3: Click on button womensClothing
+	- Step 4: Click on link login -> Navigate to page '/login'
+	- Step 5: Click on link login
+Step 3: Login
+Step 4: Click on link register -> Navigate to page '/register'
+Step 5: Click on link login -> Navigate to page '/'
+Step 6: Click on span loadingSkeleton -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
+6,Contact Support and Checkout Process,"From the home page, contact support, navigate to the cart, proceed to checkout, return to the home page, and verify successful navigation.","Step 1: Navigate to /
+Step 2: Click on link contact -> Navigate to page '/contact'
+Step 3: Click on link cart -> Navigate to page '/cart'
+Step 4: Click on link goToCheckout -> Navigate to page '/checkout'
+Step 5: Click on link reactEcommerce -> Navigate to page '/'
+Step 6: Click on link reactEcommerce
+Step 7: Click on button addToCart (addToCart) -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Low,NEW
+11,Login and Submit Contact Form with Checkout Verification,"Login to the application, navigate to the contact page, submit a message, and verify the home page after checking the cart.","Step 1: Navigate to /
+Step 2: Click on link login -> Navigate to page '/login'
+Step 3: Login
+Step 4: Click on link reactEcommerce -> Navigate to page '/'
+Step 5: Click on link products -> Navigate to page '/product'
+Step 6: Click on link products
+Step 7: Click on link about -> Navigate to page '/about'
+Step 8: Click on link contact -> Navigate to page '/contact'
+Step 9: Click on input name
+Step 10: Enter input value in input name
+Step 11: Click on input email
+Step 12: Enter input value in input email
+Step 13: Press key Tab on input email
+Step 14: Enter input value in textarea message2
+Step 15: Click on div send
+Step 16: Click on div send
+Step 17: Click on div send
+Step 18: Click on textarea message2
+Step 19: Click on link cartEmpty -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
+",Low,NEW
+4,Remove Items from Shopping Cart and Return to Home,"Navigate to the about page, add multiple items to the cart, and remove them. Return to the home page after managing the cart.","Step 1: Navigate to /about
+Step 2: Click on p aboutText
+Step 3: Click on link home -> Navigate to page '/'
+Step 4: Click on link products -> Navigate to page '/product'
+Step 5: Click on button addToCart (addToCart3)
+Step 6: Click on button addToCart (addToCart4)
+Step 7: Click on button addToCart (addToCart4)
+Step 8: Click on button addToCart (addToCart4)
+Step 9: Click on link cart3 -> Navigate to page '/cart'
+Step 10: Click on button removeFromCart (removeFromCart)
+Step 11: Click on button removeFromCart (removeFromCart)
+Step 12: Click on button removeFromCart (removeFromCart)
+Step 13: Click on button removeFromCart (removeFromCart)
+Step 14: Click on button removeFromCart (removeFromCart)
+Step 15: Click on button removeFromCart (removeFromCart)
+Step 16: Click on button cartAction
+Step 17: Click on button cartAction
+Step 18: Click on button cartAction
+Step 19: Click on button cartAction
+Step 20: Click on link continueShopping -> Navigate to page ''
+Step 21: Take full page screenshot as checkpoint
+",Low,NEW
+15,Navigate and Complete Checkout Process with Multiple Products,"Navigate through the home, products, about, and contact pages. Add products to the cart, proceed to checkout, and enter payment details to complete the order.","Step 1: Navigate to /
+Step 2: Click on link products -> Navigate to page '/product'
+Step 3: Click on link about -> Navigate to page '/about'
+Step 4: Click on link contact -> Navigate to page '/contact'
+Step 5: Click on link home -> Navigate to page '/'
+Step 6: Click on button addToCart (addToCart)
+Step 7: Click on button addToCart (addToCart2)
+Step 8: Click on link cart (cart) -> Navigate to page '/cart'
+Step 9: Click on link goToCheckout2 -> Navigate to page '/checkout'
+Step 10: Click on input zip
+Step 11: Enter input value in input zip
+Step 12: Click on div checkoutSummary
+Step 13: Click on input nameOnCard
+Step 14: Enter input value in input nameOnCard
+Step 15: Click on label creditCardNumber
+Step 16: Click on input creditCardNumber -> Navigate to page ''
+Step 17: Take full page screenshot as checkpoint
+",Trivial,NEW
+5,Contact Form Submission and Complete Checkout Process,"Navigate to contact page, fill out the contact form, and submit. Then, login, add products to the cart, and complete the checkout process with payment details.","Step 1: Navigate to /
+Step 2: Click on link contact -> Navigate to page '/contact'
+Step 3: Click on link contactInfo (contact)
+Step 4: Click on input name
+Step 5: Enter input value in input name
+Step 6: Click on div emailField
+Step 7: Click on input email
+Step 8: Enter input value in input email
+Step 9: Press key Tab on input email
+Step 10: Enter input value in textarea message
+Step 11: Click on div send
+Step 12: Click on div send
+Step 13: Click on div send
+Step 14: Click on div send
+Step 15: Click on div send
+Step 16: Click on div send
+Step 17: Click on link login -> Navigate to page '/login'
+Step 18: Click on div demoCredentials
+Step 19: Click on div demoCredentials
+Step 20: Login -> Navigate to page '/'
+Step 21: Click on div buyNow (buyNow)
+Step 22: Click on button addToCart (addToCart2)
+Step 23: Click on div buyNow (buyNow2)
+Step 24: Click on nav main
+Step 25: Click on link cart (cart2) -> Navigate to page '/cart'
+Step 26: Click on link goToCheckout -> Navigate to page '/checkout'
+Step 27: Click on input firstName
+Step 28: Enter input value in input firstName
+Step 29: Click on input lastName
+Step 30: Enter input value in input lastName
+Step 31: Click on input address
+Step 32: Enter input value in input address
+Step 33: Click on input address2
+Step 34: Click on input address2
+Step 35: Enter input value in input address2
+Step 36: Select option with input value from select country
+Step 37: Select option with input value from select state
+Step 38: Click on input zip
+Step 39: Enter input value in input zip
+Step 40: Click on div nameOnCard
+Step 41: Click on input nameOnCard
+Step 42: Enter input value in input nameOnCard
+Step 43: Click on input creditCardNumber
+Step 44: Enter input value in input creditCardNumber
+Step 45: Click on input expiration
+Step 46: Enter input value in input expiration
+Step 47: Click on input cvv
+Step 48: Enter input value in input cvv
+Step 49: Click on button placeOrder -> Navigate to page '/'
+Step 50: Click on link cart (cart2) -> Navigate to page '/cart'
+Step 51: Click on link goToCheckout -> Navigate to page ''
+Step 52: Take full page screenshot as checkpoint
+",Trivial,NEW
+3,Complete Checkout Process with Multiple Items and Payment Details,"Navigate to the home page, select products, add them to the cart, and proceed to checkout. Fill in billing and payment details to complete the order.","Step 1: Navigate to /
+Step 2: Click on image card
+Step 3: Click on link buyNow -> Navigate to page '/product/*'
+Step 4: Click on button addToCart2
+Step 5: Click on button addToCart2
+Step 6: Click on link cart (cart2) -> Navigate to page '/cart'
+Step 7: Click on link goToCheckout2 -> Navigate to page '/checkout'
+Step 8: Click on form checkout
+Step 9: Click on input firstName
+Step 10: Enter input value in input firstName
+Step 11: Click on input lastName
+Step 12: Enter input value in input lastName
+Step 13: Click on div billingDetails
+Step 14: Click on input address
+Step 15: Enter input value in input address
+Step 16: Click on input nameOnCard
+Step 17: Enter input value in input nameOnCard
+Step 18: Click on input creditCardNumber
+Step 19: Enter input value in input creditCardNumber
+Step 20: Click on input expiration
+Step 21: Enter input value in input expiration
+Step 22: Click on input cvv
+Step 23: Enter input value in input cvv
+Step 24: Click on input address2
+Step 25: Select option with input value from select country
+Step 26: Select option with input value from select state
+Step 27: Click on input zip
+Step 28: Enter input value in input zip
+Step 29: Click on div orderSummaryDetails
+Step 30: Click on div billingDetails
+Step 31: Click on input email
+Step 32: Enter input value in input email
+Step 33: Click on div orderSummaryDetails
+Step 34: Click on input email
+Step 35: Enter input value in input email
+Step 36: Click on div address
+Step 37: Click on input firstName
+Step 38: Enter input value in input firstName
+Step 39: Click on div orderSummaryDetails
+Step 40: Click on div orderSummary
+Step 41: Click on div orderSummaryDetails
+Step 42: Click on link reactEcommerce -> Navigate to page '/'
+Step 43: Click on link cart (cart3) -> Navigate to page '/cart'
+Step 44: Click on link goToCheckout -> Navigate to page '/checkout'
+Step 45: Click on link reactEcommerce -> Navigate to page '/'
+Step 46: Click on link buyNow (buyNow2)
+Step 47: Click on link buyNow (buyNow3)
+Step 48: Click on button addToCart (addToCart3)
+Step 49: Click on link products -> Navigate to page '/product'
+Step 50: Click on link about -> Navigate to page '/about'
+Step 51: Click on link contact -> Navigate to page '/contact'
+Step 52: Click on link contactInfo (about) -> Navigate to page ''
+Step 53: Take full page screenshot as checkpoint
+",Trivial,NEW
 2,User Registration and Login Flow,"Navigate to the about page, explore products, and attempt to register. Then, log in and verify the home page after registration.","Step 1: Navigate to /
 Step 2: Click on link about -> Navigate to page '/about'
 Step 3: Click on link products -> Navigate to page '/product'
@@ -57,4 +313,4 @@ Step 14: Click on input fullName
 Step 15: Click on input fullName
 Step 16: Click on link reactEcommerce -> Navigate to page ''
 Step 17: Take full page screenshot as checkpoint
-",Trivial,NEW
+",Trivial,STABLE

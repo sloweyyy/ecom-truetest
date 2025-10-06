@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>05cb5461-04f2-4253-a5ee-c480e6961391</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, explore the about page, and perform login actions. Verify navigation back to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC10-Login and Navigate to Home Page from About Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>9a69538f-3eb6-46c5-839c-d12ad1803952</testCaseGuid>
+</TestCaseEntity>
