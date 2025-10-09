@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>88875b07-e302-4f8f-8525-509417ca288a</id>
+        </flow>
+    </customField>
+    <description>Navigate to the about page, add multiple items to the cart, and remove them. Return to the home page after managing the cart.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC4-Remove Items from Shopping Cart and Return to Home</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7cd00128-16eb-4966-a98b-0c0ec4e4104d</testCaseGuid>
+    <variable>
+        <defaultValue>'\\\\34 '</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>184bda88-fb71-47ed-8588-56435602777f</id>
+        <masked>false</masked>
+        <name>button_addToCart_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\35 '</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>efb17616-fb37-41d5-8b59-4d870c69bcb9</id>
+        <masked>false</masked>
+        <name>button_addToCart_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\35 '</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>690a3793-1ce6-43f7-9f27-63b50993599c</id>
+        <masked>false</masked>
+        <name>button_addToCart_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\35 '</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ee08ca71-1331-427f-922c-20f1c8be46b6</id>
+        <masked>false</masked>
+        <name>button_addToCart_id_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'11 x \\\\$109\\\\.95'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>47210ea8-f40f-4a67-828d-65f8acf98dd4</id>
+        <masked>false</masked>
+        <name>button_removeFromCart_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'11 x \\\\$109\\\\.95'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>54267e17-84e4-4740-aff9-b08d921d83a2</id>
+        <masked>false</masked>
+        <name>button_removeFromCart_internalHasText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'11 x \\\\$109\\\\.95'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>51651350-bc8c-4696-87af-c7a2d744c566</id>
+        <masked>false</masked>
+        <name>button_removeFromCart_internalHasText_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'11 x \\\\$109\\\\.95'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9075c9e2-1e5c-4a79-a107-098902d513d7</id>
+        <masked>false</masked>
+        <name>button_removeFromCart_internalHasText_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'11 x \\\\$109\\\\.95'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>938576f7-e1fa-4b0b-a672-52de0bbcd302</id>
+        <masked>false</masked>
+        <name>button_removeFromCart_internalHasText_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'11 x \\\\$109\\\\.95'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>bfc4f0a1-ed69-47a1-b267-a70541a2a2a9</id>
+        <masked>false</masked>
+        <name>button_removeFromCart_internalHasText_5</name>
+    </variable>
+</TestCaseEntity>

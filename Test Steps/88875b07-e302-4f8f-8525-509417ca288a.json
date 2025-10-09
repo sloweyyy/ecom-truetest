@@ -1,0 +1,25 @@
+{
+    "steps": [
+        "step 1: Navigate to /about",
+        "step 2: Click on p aboutText",
+        "step 3: Click on link home -> Navigate to page '/'",
+        "step 4: Click on link products -> Navigate to page '/product'",
+        "step 5: Click on button addToCart (addToCart3)",
+        "step 6: Click on button addToCart (addToCart4)",
+        "step 7: Click on button addToCart (addToCart4)",
+        "step 8: Click on button addToCart (addToCart4)",
+        "step 9: Click on link cart3 -> Navigate to page '/cart'",
+        "step 10: Click on button removeFromCart (removeFromCart)",
+        "step 11: Click on button removeFromCart (removeFromCart)",
+        "step 12: Click on button removeFromCart (removeFromCart)",
+        "step 13: Click on button removeFromCart (removeFromCart)",
+        "step 14: Click on button removeFromCart (removeFromCart)",
+        "step 15: Click on button removeFromCart (removeFromCart)",
+        "step 16: Click on button cartAction",
+        "step 17: Click on button cartAction",
+        "step 18: Click on button cartAction",
+        "step 19: Click on button cartAction",
+        "step 20: Click on link continueShopping -> Navigate to page ''",
+        "step 21: Take full page screenshot as checkpoint"
+    ]
+}
