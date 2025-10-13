@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>5631af49-1530-41da-9978-2e36d95ce0c9</id>
+        </flow>
+    </customField>
+    <description>Navigate through the home, products, about, and contact pages. Add products to the cart, proceed to checkout, and enter payment details to complete the order.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC15-Navigate and Complete Checkout Process with Multiple Products</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d8f2287e-93e7-4791-bd19-dba9532d8ea5</testCaseGuid>
+    <variable>
+        <defaultValue>'\\\\31 '</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8f122ae9-10fc-4949-9f63-ae930800922b</id>
+        <masked>false</masked>
+        <name>button_addToCart_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\32 '</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3ac5d8a9-b391-47cd-ab31-77c6f3e31612</id>
+        <masked>false</masked>
+        <name>button_addToCart_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>24ee311d-e480-47f7-9991-85291403c04d</id>
+        <masked>false</masked>
+        <name>input_nameOnCard</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>daeb1136-913b-4850-88ec-1eedec031832</id>
+        <masked>false</masked>
+        <name>input_zip</name>
+    </variable>
+    <variable>
+        <defaultValue>'Cart (7)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ac53efaa-6189-4f5b-8e8e-6498a7fc4114</id>
+        <masked>false</masked>
+        <name>link_cart_internalText</name>
+    </variable>
+</TestCaseEntity>
