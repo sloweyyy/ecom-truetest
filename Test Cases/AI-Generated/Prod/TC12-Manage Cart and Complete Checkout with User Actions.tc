@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Add multiple items to the cart, manage cart actions, log in, and complete the checkout process. Includes sending messages and navigating through the site.</description>
    <name>TC12-Manage Cart and Complete Checkout with User Actions</name>
-   <tag></tag>
+   <tag>scout</tag>
    <comment></comment>
    <testCaseGuid>f37c6812-9df8-4b70-9a35-add04ef7f4cd</testCaseGuid>
    <variable>
@@ -139,7 +139,7 @@
       <name>button_shippingPolicies_ButtonInternalText</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"faq1\\"] &gt; .accordion-button'</defaultValue>
+      <defaultValue>'[id=\\\\"faq1\\\\"] &gt; .accordion-button'</defaultValue>
       <description>Step 30: Click on button shippingPolicies (shippingInfo) - (Dynamic locator variable)</description>
       <id>5c648936-6aa3-40ac-ab38-1cdf4b9b8a1c</id>
       <masked>false</masked>
@@ -216,7 +216,7 @@
       <name>link_cartItems_css_value_2</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 40: Click on link cartItems (cart6) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>ca8d8c09-a6aa-42d5-8a85-4aee62cd1398</id>
       <masked>false</masked>

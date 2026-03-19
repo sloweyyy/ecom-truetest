@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Navigate to home, add items to the cart, check product details, return to home, and verify the home page.</description>
    <name>TC25-Add Items to Cart and Verify Home Page Navigation</name>
-   <tag></tag>
+   <tag>scout</tag>
    <comment></comment>
    <testCaseGuid>b90d55be-fb6d-40f8-9289-42f309515578</testCaseGuid>
    <variable>

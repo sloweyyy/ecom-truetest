@@ -2,60 +2,60 @@
 <TestCaseEntity>
    <description>Navigate through product categories, add items to the cart, clear the cart, and complete the checkout process with user details.</description>
    <name>TC20-Explore Products and Complete Checkout with User Actions</name>
-   <tag></tag>
+   <tag>scout</tag>
    <comment></comment>
    <testCaseGuid>df1212e3-2569-4156-aa50-782102440f8c</testCaseGuid>
    <variable>
-      <defaultValue>'\\\\31 '</defaultValue>
+      <defaultValue>'\\\\\\\\31 '</defaultValue>
       <description>Step 14: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>aa91aee9-cb0d-491a-9caf-3bc11e43d48b</id>
       <masked>false</masked>
       <name>button_addToCart_Id</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\39 '</defaultValue>
+      <defaultValue>'\\\\\\\\39 '</defaultValue>
       <description>Step 25: Click on button addToCart (addToCart7) -&gt; Navigate to page '/checkout' - (Dynamic locator variable)</description>
       <id>62a95fff-ed0b-476e-a5cc-c5a6d3c78c9f</id>
       <masked>false</masked>
       <name>button_addToCart_Id_1</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\31 '</defaultValue>
+      <defaultValue>'\\\\\\\\31 '</defaultValue>
       <description>Step 39: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>503a9e99-616c-49ad-a1eb-f799618f68aa</id>
       <masked>false</masked>
       <name>button_addToCart_Id_2</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\31 '</defaultValue>
+      <defaultValue>'\\\\\\\\31 '</defaultValue>
       <description>Step 40: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>ed630f7b-0388-4643-83c9-24d51259cdbc</id>
       <masked>false</masked>
       <name>button_addToCart_Id_3</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\31 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\31 \\\\"] button'</defaultValue>
       <description>Step 14: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>b86ce178-eb86-4da6-bfff-876b8d4d45b6</id>
       <masked>false</masked>
       <name>button_addToCart_css_value</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\39 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\39 \\\\"] button'</defaultValue>
       <description>Step 25: Click on button addToCart (addToCart7) -&gt; Navigate to page '/checkout' - (Dynamic locator variable)</description>
       <id>ac24fc71-62ba-4502-917b-8b391708f93c</id>
       <masked>false</masked>
       <name>button_addToCart_css_value_1</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\31 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\31 \\\\"] button'</defaultValue>
       <description>Step 39: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>72af522f-b10d-4521-b3d7-a8dd2994bcc2</id>
       <masked>false</masked>
       <name>button_addToCart_css_value_2</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\31 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\31 \\\\"] button'</defaultValue>
       <description>Step 40: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>35264abf-8a02-47c9-8556-925bc2a0763e</id>
       <masked>false</masked>
@@ -167,28 +167,28 @@
       <name>input_zip</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\39 '</defaultValue>
+      <defaultValue>'\\\\\\\\39 '</defaultValue>
       <description>Step 8: Click on link buyNowOptions (buyNow2) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>cab05d32-0153-44b9-95ed-0f87792c4297</id>
       <masked>false</masked>
       <name>link_buyNowOptions_Id</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\35 '</defaultValue>
+      <defaultValue>'\\\\\\\\35 '</defaultValue>
       <description>Step 44: Click on link buyNowOptions (buyNow6) -&gt; Navigate to page '/' - (Dynamic locator variable)</description>
       <id>02d99889-5a83-4e22-88d3-618338f9b995</id>
       <masked>false</masked>
       <name>link_buyNowOptions_Id_1</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\39 \\"] a'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\39 \\\\"] a'</defaultValue>
       <description>Step 8: Click on link buyNowOptions (buyNow2) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>9ca3db40-31e0-4dcb-84a1-a7c59751d539</id>
       <masked>false</masked>
       <name>link_buyNowOptions_css_value</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\35 \\"] a'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\35 \\\\"] a'</defaultValue>
       <description>Step 44: Click on link buyNowOptions (buyNow6) -&gt; Navigate to page '/' - (Dynamic locator variable)</description>
       <id>ce2bfbba-ed58-4e82-b6aa-1321e0852327</id>
       <masked>false</masked>
@@ -244,7 +244,7 @@
       <name>link_cartItems_css_value_1</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 41: Click on link cartItems (cart4) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>34a8e849-b317-48e8-8755-ab43ffe23582</id>
       <masked>false</masked>
@@ -258,7 +258,7 @@
       <name>link_cartItems_css_value_3</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 22: Click on link cartItems (cart6) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>7acc6e55-56d9-4586-a03c-d75f0f342612</id>
       <masked>false</masked>

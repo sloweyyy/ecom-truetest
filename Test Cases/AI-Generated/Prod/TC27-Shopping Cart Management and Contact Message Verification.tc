@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Add multiple items to the cart, login, place an order, and send a contact message while verifying admin contact messages.</description>
    <name>TC27-Shopping Cart Management and Contact Message Verification</name>
-   <tag></tag>
+   <tag>scout</tag>
    <comment></comment>
    <testCaseGuid>583e89d5-2208-41b8-9be0-bd9d32e53df6</testCaseGuid>
    <variable>
@@ -90,28 +90,28 @@
       <name>input_fullName</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\31 '</defaultValue>
+      <defaultValue>'\\\\\\\\31 '</defaultValue>
       <description>Step 13: Click on link buyNowOptions (buyNow) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>e2fcf3e9-88ab-480b-9ef6-40d091ef0cb1</id>
       <masked>false</masked>
       <name>link_buyNowOptions_Id</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\32 '</defaultValue>
+      <defaultValue>'\\\\\\\\32 '</defaultValue>
       <description>Step 15: Click on link buyNowOptions (buyNow3) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>b03f3e2a-5c3a-4cbc-ab61-1fb9e3d2f190</id>
       <masked>false</masked>
       <name>link_buyNowOptions_Id_1</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\31 \\"] a'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\31 \\\\"] a'</defaultValue>
       <description>Step 13: Click on link buyNowOptions (buyNow) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>8f9a205d-0c04-4851-bbb3-aad8e75747dd</id>
       <masked>false</masked>
       <name>link_buyNowOptions_css_value</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\32 \\"] a'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\32 \\\\"] a'</defaultValue>
       <description>Step 15: Click on link buyNowOptions (buyNow3) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>9c34e2c1-1999-474e-be36-24e26b3a0c2e</id>
       <masked>false</masked>
@@ -146,14 +146,14 @@
       <name>link_cartItems_css_value</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 19: Click on link cartItems (cart12) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>05562663-fdb2-4ca7-88c4-a96485bf3975</id>
       <masked>false</masked>
       <name>link_cartItems_css_value_1</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 38: Click on link cartItems (cart6) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>8b5e508b-8157-4217-9b3e-b6381cab5ea2</id>
       <masked>false</masked>
@@ -216,7 +216,7 @@
       <name>textarea_message</name>
    </variable>
    <variable>
-      <defaultValue>'Test message with special chars: "&lt;script&gt;alert(\'xss\')&lt;/script&gt;" and \'quotes\' and "double" and `backticks` and \\backslashes\\'</defaultValue>
+      <defaultValue>'Test message with special chars: "&lt;script&gt;alert(\'xss\')&lt;/script&gt;" and \'quotes\' and "double" and `backticks` and \\\\backslashes\\\\'</defaultValue>
       <description>Step 30: Enter input value in textarea message - (Input data variable)</description>
       <id>aa802737-d5d8-4c51-9a84-e3b3b4bc2929</id>
       <masked>false</masked>

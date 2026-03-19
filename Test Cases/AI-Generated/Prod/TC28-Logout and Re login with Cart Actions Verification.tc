@@ -2,11 +2,11 @@
 <TestCaseEntity>
    <description>Add items to the cart, logout, register and login again, check cart items, and verify navigation to the home page.</description>
    <name>TC28-Logout and Re login with Cart Actions Verification</name>
-   <tag></tag>
+   <tag>scout</tag>
    <comment></comment>
    <testCaseGuid>26f58992-0fc9-49c9-baf1-06c0168b4f62</testCaseGuid>
    <variable>
-      <defaultValue>'11 x \\\\'</defaultValue>
+      <defaultValue>'11 x \\\\\\\\'</defaultValue>
       <description>Step 8: Click on button cartActions (object) - (Dynamic locator variable)</description>
       <id>fb5af28c-6e5a-445a-8611-201d4b21f4c6</id>
       <masked>false</masked>
@@ -20,7 +20,7 @@
       <name>button_cartActions_DivInternalHasText_1</name>
    </variable>
    <variable>
-      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\"col-lg-4\\\\ col-md-6\\"] button:nth-of-type(2)'</defaultValue>
+      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\\\"col-lg-4\\\\\\\\ col-md-6\\\\"] button:nth-of-type(2)'</defaultValue>
       <description>Step 8: Click on button cartActions (object) - (Dynamic locator variable)</description>
       <id>07120595-1f8e-4f9c-b2a4-23b60b792ae5</id>
       <masked>false</masked>
@@ -48,7 +48,7 @@
       <name>link_cartItems_AInternalText_1</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 7: Click on link cartItems (cart10) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>3ea75c79-9d1b-4a11-ae8b-c598fe2c910f</id>
       <masked>false</masked>

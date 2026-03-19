@@ -2,53 +2,53 @@
 <TestCaseEntity>
    <description>Browse products, add items to the cart, log in, and fill out the order form to complete the purchase. Includes user registration and contact messaging.</description>
    <name>TC10-Add Items to Cart and Complete Checkout with User Registration (1)</name>
-   <tag></tag>
+   <tag>scout</tag>
    <comment></comment>
    <testCaseGuid>bd529ae9-838b-43ce-978b-2fd5405ad0f4</testCaseGuid>
    <variable>
-      <defaultValue>'\\\\32 '</defaultValue>
+      <defaultValue>'\\\\\\\\32 '</defaultValue>
       <description>Step 5: Click on button addToCart (addToCart3) - (Dynamic locator variable)</description>
       <id>e604584f-11ff-43c0-b65e-e0bbb4c1bb94</id>
       <masked>false</masked>
       <name>button_addToCart_Id</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\32 '</defaultValue>
+      <defaultValue>'\\\\\\\\32 '</defaultValue>
       <description>Step 9: Click on button addToCart (addToCart3) - (Dynamic locator variable)</description>
       <id>4f0542e3-05b7-4c84-818e-d04162148bd5</id>
       <masked>false</masked>
       <name>button_addToCart_Id_1</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\31 '</defaultValue>
+      <defaultValue>'\\\\\\\\31 '</defaultValue>
       <description>Step 18: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>dd559ee8-53a0-4232-860a-3ec3777df9e2</id>
       <masked>false</masked>
       <name>button_addToCart_Id_2</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\32 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\32 \\\\"] button'</defaultValue>
       <description>Step 5: Click on button addToCart (addToCart3) - (Dynamic locator variable)</description>
       <id>6bc9949d-8f57-4811-a713-b9e204185231</id>
       <masked>false</masked>
       <name>button_addToCart_css_value</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\32 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\32 \\\\"] button'</defaultValue>
       <description>Step 9: Click on button addToCart (addToCart3) - (Dynamic locator variable)</description>
       <id>1e311eac-679d-4a18-9b57-4f9fc92134a8</id>
       <masked>false</masked>
       <name>button_addToCart_css_value_1</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\31 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\31 \\\\"] button'</defaultValue>
       <description>Step 18: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>60887fd3-da78-4eb2-9e51-36f93066519b</id>
       <masked>false</masked>
       <name>button_addToCart_css_value_2</name>
    </variable>
    <variable>
-      <defaultValue>'11 x \\\\'</defaultValue>
+      <defaultValue>'11 x \\\\\\\\'</defaultValue>
       <description>Step 7: Click on button cartActions (object) - (Dynamic locator variable)</description>
       <id>07c6f4f1-cddb-4cb4-8100-442a7c0b26d9</id>
       <masked>false</masked>
@@ -69,14 +69,14 @@
       <name>button_cartActions_DivInternalHasText_2</name>
    </variable>
    <variable>
-      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\"col-lg-4\\\\ col-md-6\\"] button:nth-of-type(2)'</defaultValue>
+      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\\\"col-lg-4\\\\\\\\ col-md-6\\\\"] button:nth-of-type(2)'</defaultValue>
       <description>Step 7: Click on button cartActions (object) - (Dynamic locator variable)</description>
       <id>d356a551-47e3-4213-9607-e89f72b56383</id>
       <masked>false</masked>
       <name>button_cartActions_css_value</name>
    </variable>
    <variable>
-      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\"col-lg-4\\\\ col-md-6\\"] button:nth-of-type(2)'</defaultValue>
+      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\\\"col-lg-4\\\\\\\\ col-md-6\\\\"] button:nth-of-type(2)'</defaultValue>
       <description>Step 11: Click on button cartActions (object6) - (Dynamic locator variable)</description>
       <id>83f55411-bbd5-4ef7-8887-782e4e0434d3</id>
       <masked>false</masked>
@@ -125,7 +125,7 @@
       <name>button_clothingCategories_css_value_1</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"buttons\\\\ text-center\\\\ py-5\\"] &gt; button:nth-of-type(1)'</defaultValue>
+      <defaultValue>'[class=\\\\"buttons\\\\\\\\ text-center\\\\\\\\ py-5\\\\"] &gt; button:nth-of-type(1)'</defaultValue>
       <description>Step 40: Click on button clothingCategories (all2) - (Dynamic locator variable)</description>
       <id>9ae477bf-e9be-46b2-b1c6-f1c8e3c08bc0</id>
       <masked>false</masked>
@@ -202,14 +202,14 @@
       <name>input_zip</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\31 '</defaultValue>
+      <defaultValue>'\\\\\\\\31 '</defaultValue>
       <description>Step 2: Click on link buyNowOptions (buyNow) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>4d2a9381-d41e-4ba9-9f93-99dedd84174e</id>
       <masked>false</masked>
       <name>link_buyNowOptions_Id</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\31 \\"] a'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\31 \\\\"] a'</defaultValue>
       <description>Step 2: Click on link buyNowOptions (buyNow) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>58f2f6c8-d3dc-4f8f-84b6-6aa746290363</id>
       <masked>false</masked>
@@ -265,21 +265,21 @@
       <name>link_cartItems_css_value_1</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 19: Click on link cartItems (cart12) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>62e0333b-ebe1-4848-a1d2-3c4e49707261</id>
       <masked>false</masked>
       <name>link_cartItems_css_value_2</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 45: Click on link cartItems (cart8) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>6eecec03-f4bd-4696-9730-f1a08f0caf76</id>
       <masked>false</masked>
       <name>link_cartItems_css_value_3</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 14: Click on link cartItems (cart3) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>f7eed9a7-b982-48c1-8fdc-882715ffd315</id>
       <masked>false</masked>

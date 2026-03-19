@@ -2,18 +2,18 @@
 <TestCaseEntity>
    <description>Navigate to admin contact messages, clear all messages, add a product to the cart, and verify the home page.</description>
    <name>TC21-Clear All Messages and Navigate to Product Page</name>
-   <tag></tag>
+   <tag>scout</tag>
    <comment></comment>
    <testCaseGuid>fe4eab8d-eb1c-487f-a3d8-50caf49905ae</testCaseGuid>
    <variable>
-      <defaultValue>'\\\\31 '</defaultValue>
+      <defaultValue>'\\\\\\\\31 '</defaultValue>
       <description>Step 4: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>5ee83d16-71c7-4b89-8661-b57a3820a74d</id>
       <masked>false</masked>
       <name>button_addToCart_Id_1</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\31 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\31 \\\\"] button'</defaultValue>
       <description>Step 4: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
       <id>4cfd7fca-6dd8-43c4-9418-c9761d36a64d</id>
       <masked>false</masked>

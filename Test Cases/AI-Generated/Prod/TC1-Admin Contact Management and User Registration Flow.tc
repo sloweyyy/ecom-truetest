@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Navigate to admin contact messages, clear all messages, logout, register a new user, and verify the home page.</description>
    <name>TC1-Admin Contact Management and User Registration Flow</name>
-   <tag></tag>
+   <tag>scout</tag>
    <comment></comment>
    <testCaseGuid>5a322f78-81f9-4036-8d91-8e6d8c0f4438</testCaseGuid>
    <variable>
@@ -13,7 +13,7 @@
       <name>link_cartItems_AInternalText_2</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 10: Click on link cartItems (cart) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>3369a875-ec14-44ac-b7f6-facc592debaf</id>
       <masked>false</masked>

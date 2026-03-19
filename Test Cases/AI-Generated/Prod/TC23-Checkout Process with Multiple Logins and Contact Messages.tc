@@ -2,32 +2,32 @@
 <TestCaseEntity>
    <description>Navigate to products, add items to the cart, send contact messages, and complete the checkout process with various logins.</description>
    <name>TC23-Checkout Process with Multiple Logins and Contact Messages</name>
-   <tag></tag>
+   <tag>scout</tag>
    <comment></comment>
    <testCaseGuid>78ffa196-8bef-4a2f-8dbc-b3f4e56fee02</testCaseGuid>
    <variable>
-      <defaultValue>'\\\\32 '</defaultValue>
+      <defaultValue>'\\\\\\\\32 '</defaultValue>
       <description>Step 16: Click on button addToCart (addToCart3) -&gt; Navigate to page '/checkout' - (Dynamic locator variable)</description>
       <id>8cc7d2e4-7966-4874-91a4-671c47d5132d</id>
       <masked>false</masked>
       <name>button_addToCart_Id</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\31 '</defaultValue>
+      <defaultValue>'\\\\\\\\31 '</defaultValue>
       <description>Step 34: Click on button addToCart (addToCart2) -&gt; Navigate to page '/checkout' - (Dynamic locator variable)</description>
       <id>6c13b531-b8ed-4330-a565-84917955c57f</id>
       <masked>false</masked>
       <name>button_addToCart_Id_1</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\32 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\32 \\\\"] button'</defaultValue>
       <description>Step 16: Click on button addToCart (addToCart3) -&gt; Navigate to page '/checkout' - (Dynamic locator variable)</description>
       <id>7633825f-a459-4ab0-b3b8-196ce47c2026</id>
       <masked>false</masked>
       <name>button_addToCart_css_value</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\31 \\"] button'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\31 \\\\"] button'</defaultValue>
       <description>Step 34: Click on button addToCart (addToCart2) -&gt; Navigate to page '/checkout' - (Dynamic locator variable)</description>
       <id>5c8dd8d9-29d2-4ad9-a3c0-d90d75a72d1f</id>
       <masked>false</masked>
@@ -118,14 +118,14 @@
       <name>input_fullName</name>
    </variable>
    <variable>
-      <defaultValue>'\\\\31 '</defaultValue>
+      <defaultValue>'\\\\\\\\31 '</defaultValue>
       <description>Step 6: Click on link buyNowOptions (buyNow) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>0fd83603-4b75-47e6-ac2e-6255b73cd7e3</id>
       <masked>false</masked>
       <name>link_buyNowOptions_Id</name>
    </variable>
    <variable>
-      <defaultValue>'[id=\\"\\\\31 \\"] a'</defaultValue>
+      <defaultValue>'[id=\\\\"\\\\\\\\31 \\\\"] a'</defaultValue>
       <description>Step 6: Click on link buyNowOptions (buyNow) -&gt; Navigate to page '/product/*' - (Dynamic locator variable)</description>
       <id>543d16e7-d553-4fd3-8a5d-b665e9ed3461</id>
       <masked>false</masked>
@@ -146,7 +146,7 @@
       <name>link_cartItems_AInternalText_1</name>
    </variable>
    <variable>
-      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <defaultValue>'[class=\\\\"btn\\\\\\\\ btn-outline-dark\\\\\\\\ m-2\\\\"]'</defaultValue>
       <description>Step 13: Click on link cartItems (cart6) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
       <id>1149fd53-4aea-4e23-aeef-2d5b5565bb28</id>
       <masked>false</masked>
