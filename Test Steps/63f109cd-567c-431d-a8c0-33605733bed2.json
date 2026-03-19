@@ -1,0 +1,478 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "ebb50056-6673-443f-b624-bca18c7a3190",
+      "name": "Navigate to /",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "06d61c03-e9e7-4299-b2e8-f9587d4da5e5",
+      "name": "Click on button clothingCategories (mensClothing)",
+      "action_id": "5a60bc5d-a61f-4e0d-ae60-c737e5bdd893",
+      "timestamp": 1773406846679,
+      "target_name": "button_clothingCategories",
+      "target_test_object_id": "045e8a45-ee1e-4cd5-a35f-e949d7801e4c",
+      "sub_steps": []
+    },
+    {
+      "id": "b017b8e1-1bbc-4b08-9945-1d1c9da892b5",
+      "name": "Click on button clothingCategories (womensClothing)",
+      "action_id": "4341fb31-516d-433f-a30b-855fdef5303d",
+      "timestamp": 1773406853270,
+      "target_name": "button_clothingCategories",
+      "target_test_object_id": "6ae33f5c-c558-4ff9-9fea-db767e58af40",
+      "sub_steps": []
+    },
+    {
+      "id": "04bc9b7c-fed4-4398-ab56-ed60be6b03ad",
+      "name": "Click on button clothingCategories (all)",
+      "action_id": "85e20b4e-a20e-43a1-b421-49dc8c16c507",
+      "timestamp": 1773406860853,
+      "target_name": "button_clothingCategories",
+      "target_test_object_id": "502d893b-02fb-45a1-b3a9-2e9524319fe8",
+      "sub_steps": []
+    },
+    {
+      "id": "2169b5a4-11f3-4a1d-add6-1fccf8ac38e7",
+      "name": "Click on button clothingCategories (selectJewelery)",
+      "action_id": "42dabacf-891f-4d4c-b7f9-c830c8a09d73",
+      "timestamp": 1773406868497,
+      "target_name": "button_clothingCategories",
+      "target_test_object_id": "96fd1eae-e418-4d1e-8017-fbb984aaa42d",
+      "sub_steps": []
+    },
+    {
+      "id": "6339bd14-1cff-4406-8e54-be9a11e3f55a",
+      "name": "Click on button clothingCategories (electronics)",
+      "action_id": "78447a88-77fb-400c-9491-d085fb1d4a3e",
+      "timestamp": 1773406876147,
+      "target_name": "button_clothingCategories",
+      "target_test_object_id": "0067c46d-0cff-41f1-8bb2-fc0db37507c3",
+      "sub_steps": []
+    },
+    {
+      "id": "599526c7-3f2f-4ae8-a7e0-8566817e9070",
+      "name": "Click on link buyNowOptions (buyNow5) -> Navigate to page '/product/*'",
+      "action_id": "7c28d554-694a-4b49-8699-f3fbb02484cd",
+      "timestamp": 1773406882401,
+      "target_name": "link_buyNowOptions",
+      "target_test_object_id": "1416a4be-3ffa-4417-8170-b0b1b7a43008",
+      "sub_steps": []
+    },
+    {
+      "id": "9b071dcc-243f-4742-9568-49815ddfa22c",
+      "name": "Click on button addToCart",
+      "action_id": "9c95ec8c-57fb-483f-b62c-d5b1c618bd96",
+      "timestamp": 1773406889489,
+      "target_name": "button_addToCart",
+      "target_test_object_id": "4d8ed74c-eb2d-4fef-8417-94f86235c598",
+      "sub_steps": []
+    },
+    {
+      "id": "16e245ce-8597-4db7-9a75-9715afa308ac",
+      "name": "Click on link productNavigation (home2) -> Navigate to page '/'",
+      "action_id": "a35be4d1-49cb-48a5-a6f9-a6084252eeec",
+      "timestamp": 1773406896045,
+      "target_name": "link_productNavigation",
+      "target_test_object_id": "f4ebe396-963f-447e-9e7d-c2f75d659ab8",
+      "sub_steps": []
+    },
+    {
+      "id": "26abc492-b1c6-4726-a23a-8dc9d2e79e00",
+      "name": "Click on button addToCart3",
+      "action_id": "03cbf417-f5cd-4618-8937-c2f519860077",
+      "timestamp": 1773406908772,
+      "target_name": "button_addToCart3",
+      "target_test_object_id": "0de1a355-722c-4efa-9847-9feecaed8811",
+      "sub_steps": []
+    },
+    {
+      "id": "03f81ffc-249a-4be4-9d9d-fb09053ad4d4",
+      "name": "Click on link cartItems (cart2) -> Navigate to page '/cart'",
+      "action_id": "59152973-8275-44f3-8472-97f8f92f43c0",
+      "timestamp": 1773406927396,
+      "target_name": "link_cartItems",
+      "target_test_object_id": "049e034f-05fc-4359-95ce-991e3c74137e",
+      "sub_steps": []
+    },
+    {
+      "id": "faec2ec3-85f7-49fa-b994-cc85328aba20",
+      "name": "Click on button cartActions (addToCart)",
+      "action_id": "f0668e78-160a-49dd-be5b-a682297f4cc8",
+      "timestamp": 1773406934294,
+      "target_name": "button_cartActions",
+      "target_test_object_id": "6888bae9-360a-4e49-9dd9-976d629a1223",
+      "sub_steps": []
+    },
+    {
+      "id": "89ddfc04-7150-4928-9b9f-331bedfb83f4",
+      "name": "Click on button cartActions (cartAction4)",
+      "action_id": "9f354f62-3a5c-4c75-a6c7-0527742bf595",
+      "timestamp": 1773406941878,
+      "target_name": "button_cartActions",
+      "target_test_object_id": "ea1a11c0-81e8-496c-9dc4-bbdb13758084",
+      "sub_steps": []
+    },
+    {
+      "id": "b93c38b1-ee65-469a-97f2-87882a123d14",
+      "name": "Click on button cartActions (cart2)",
+      "action_id": "59f38651-f83d-4e5a-a99d-0b09e1d799fe",
+      "timestamp": 1773406949011,
+      "target_name": "button_cartActions",
+      "target_test_object_id": "00670815-4f0e-40a7-b9e3-2648608a48eb",
+      "sub_steps": []
+    },
+    {
+      "id": "a5a3eabb-5a14-4383-a523-1c3ee4e066d1",
+      "name": "Click on button clearAll",
+      "action_id": "d47a943f-5d0d-4e2f-91af-e2eacf0eb7fd",
+      "timestamp": 1773406956458,
+      "target_name": "button_clearAll",
+      "target_test_object_id": "76ad42e9-ab3e-4f20-8550-54f38d57c659",
+      "sub_steps": []
+    },
+    {
+      "id": "46e6fb90-641d-4dc0-9729-ecb087ed2cfa",
+      "name": "Click on link continueShopping -> Navigate to page '/'",
+      "action_id": "3af129da-cc1e-4bdd-ba3e-4234ff90e553",
+      "timestamp": 1773406966611,
+      "target_name": "link_continueShopping",
+      "target_test_object_id": "72e6fc38-da3a-413b-a7c4-f84ba51b6352",
+      "sub_steps": []
+    },
+    {
+      "id": "2a09c3c7-dfbd-4c2a-9c6e-b6d52b3d000b",
+      "name": "Click on button addToCart3",
+      "action_id": "8e70195c-a86c-4ce5-885d-a5bdae6bb29e",
+      "timestamp": 1773406973577,
+      "target_name": "button_addToCart3",
+      "target_test_object_id": "0de1a355-722c-4efa-9847-9feecaed8811",
+      "sub_steps": []
+    },
+    {
+      "id": "eebb62e8-31b8-4462-99c4-70256ff351e8",
+      "name": "Click on button addToCart4",
+      "action_id": "e6a6bec8-69c7-4152-b418-cdcc6843f351",
+      "timestamp": 1773406980843,
+      "target_name": "button_addToCart4",
+      "target_test_object_id": "f7941306-9f8e-4087-a6ba-9c11940d8b65",
+      "sub_steps": []
+    },
+    {
+      "id": "c5426e2f-389a-4bae-abf8-b6a7cf4fe750",
+      "name": "Click on link cartItems (cart2) -> Navigate to page '/cart'",
+      "action_id": "6d038206-1f96-4573-88bb-c2ca2dc0ff52",
+      "timestamp": 1773406987554,
+      "target_name": "link_cartItems",
+      "target_test_object_id": "049e034f-05fc-4359-95ce-991e3c74137e",
+      "sub_steps": []
+    },
+    {
+      "id": "0b6dc4a6-d29a-405a-8550-f0f59f5c1144",
+      "name": "Click on link goToCheckout -> Navigate to page '/login'",
+      "action_id": "b8709935-aeb1-4e24-b787-a6594c3f78e8",
+      "timestamp": 1773406996111,
+      "target_name": "link_goToCheckout",
+      "target_test_object_id": "cee5b29b-d183-4bc8-8b85-7c66612f0098",
+      "sub_steps": []
+    },
+    {
+      "id": "a0cfcc54-bf58-4e2c-a6eb-067f2d69e982",
+      "name": "Login -> Navigate to page '/'",
+      "action_id": "cc61f5ba-3a4d-44b2-83e6-8ad8813dfcef",
+      "timestamp": 1773407006654,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "95180b78-8e58-436d-91cd-78b70371a8e6",
+      "name": "Click on link cartItems (cart3) -> Navigate to page '/cart'",
+      "action_id": "35f6e65d-6b69-498d-8e28-08307a3082e4",
+      "timestamp": 1773407038522,
+      "target_name": "link_cartItems",
+      "target_test_object_id": "58dfc264-7cc7-4dfe-be8c-ce09b642bd3e",
+      "sub_steps": []
+    },
+    {
+      "id": "bcbaa4b4-6296-49f0-9266-8368726ff78c",
+      "name": "Click on link goToCheckout -> Navigate to page '/checkout'",
+      "action_id": "84136005-7b60-4b8a-b588-7e0825cbfef3",
+      "timestamp": 1773407045992,
+      "target_name": "link_goToCheckout",
+      "target_test_object_id": "cee5b29b-d183-4bc8-8b85-7c66612f0098",
+      "sub_steps": []
+    },
+    {
+      "id": "19fb9b61-fb22-45c5-8f52-a2efa4bfd51a",
+      "name": "Click on button placeOrder -> Navigate to page '/'",
+      "action_id": "39d80cb1-c884-47b0-be74-3ce3154c7fd0",
+      "timestamp": 1773407060825,
+      "target_name": "button_placeOrder",
+      "target_test_object_id": "2b6839c4-9986-42f0-be22-34f8a99ae14c",
+      "sub_steps": []
+    },
+    {
+      "id": "7e681481-022f-42c2-81d9-db7d40f6ff6a",
+      "name": "Click on link productNavigation (products) -> Navigate to page '/product'",
+      "action_id": "954a2a3d-c4da-412a-8445-04193abcb4ae",
+      "timestamp": 1773407094322,
+      "target_name": "link_productNavigation",
+      "target_test_object_id": "46c8fc01-7a50-482e-a122-f2f645c24c2a",
+      "sub_steps": []
+    },
+    {
+      "id": "39e28b45-db4a-4b73-9f35-cb3fb1a55159",
+      "name": "Click on button logout2 -> Navigate to page '/'",
+      "action_id": "5aa68562-16a7-4d0c-9f21-804125857588",
+      "timestamp": 1773407101012,
+      "target_name": "button_logout2",
+      "target_test_object_id": "fc26fc3a-0699-4644-8d81-794245341aec",
+      "sub_steps": []
+    },
+    {
+      "id": "8f35386a-0921-45fb-b9bf-fb1730ce870b",
+      "name": "Click on button addToCart3",
+      "action_id": "e8f7cf84-e15f-4115-9c0f-35e0eba4db86",
+      "timestamp": 1773407110510,
+      "target_name": "button_addToCart3",
+      "target_test_object_id": "0de1a355-722c-4efa-9847-9feecaed8811",
+      "sub_steps": []
+    },
+    {
+      "id": "e4bdc5d3-44d9-4d80-a9cc-d4a252745b76",
+      "name": "Click on link register -> Navigate to page '/register'",
+      "action_id": "93556dc9-84d9-4eb2-94bc-a4e784c0a3e2",
+      "timestamp": 1773407117284,
+      "target_name": "link_register",
+      "target_test_object_id": "1181bfbd-6eed-4f0e-b8d7-5f0abdb65654",
+      "sub_steps": []
+    },
+    {
+      "id": "8dc8d221-1768-4c1d-9b24-fc33faae13bb",
+      "name": "Login -> Navigate to page '/'",
+      "action_id": "1f6a3018-a8e8-4bef-a4c2-86945c548dc3",
+      "timestamp": 1773407124068,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "f54fcb5b-7bbc-4f81-9029-14b002f9f322",
+      "name": "Click on link about2 -> Navigate to page '/about'",
+      "action_id": "f809e7ef-4f7a-49f7-b40d-c34416659f7b",
+      "timestamp": 1773407175594,
+      "target_name": "link_about2",
+      "target_test_object_id": "d0c426e1-a519-4833-8fe2-1585866eb2bf",
+      "sub_steps": []
+    },
+    {
+      "id": "6eef3b4b-1efa-4018-bb88-9f8a3374e87b",
+      "name": "Click on link contact2 -> Navigate to page '/contact'",
+      "action_id": "6bff2378-11c1-465d-b73e-4c9718ced20d",
+      "timestamp": 1773407181830,
+      "target_name": "link_contact2",
+      "target_test_object_id": "e4ea7fa3-c448-43ce-84ed-72c260b962b0",
+      "sub_steps": []
+    },
+    {
+      "id": "1377319c-69d7-4434-bc54-4fd085e1caf7",
+      "name": "Enter input value in input fullName",
+      "action_id": "2d6e4053-d849-4bce-a2ef-d173b7d984d0",
+      "timestamp": 1773407190571,
+      "target_name": "input_fullName",
+      "target_test_object_id": "b3e685c1-4a76-414f-83b3-c8052e368552",
+      "sub_steps": []
+    },
+    {
+      "id": "5b66734e-0902-4c46-a946-fe2801811c35",
+      "name": "Enter input value in input emailAddress",
+      "action_id": "43eb4675-0c64-452a-aac4-5ba977226a4f",
+      "timestamp": 1773407190709,
+      "target_name": "input_emailAddress",
+      "target_test_object_id": "e55d2555-6c0b-406a-ba09-b24349fc40bb",
+      "sub_steps": []
+    },
+    {
+      "id": "7dd36168-7c5c-4c27-a989-9df2375d530a",
+      "name": "Click on button sendMessage",
+      "action_id": "2e873120-e8f5-4911-afe7-e20881ad3538",
+      "timestamp": 1773407195471,
+      "target_name": "button_sendMessage",
+      "target_test_object_id": "7c8d6f42-49ed-470c-93d1-5cdd0bb21f6a",
+      "sub_steps": []
+    },
+    {
+      "id": "8c0bfa06-bdf9-4c8e-b7ca-04a3eb69c384",
+      "name": "Click on button shippingPolicies (faqShipping)",
+      "action_id": "33eaae87-e91b-497e-a0aa-f8799a8208a2",
+      "timestamp": 1773407201903,
+      "target_name": "button_shippingPolicies",
+      "target_test_object_id": "71c31ac8-c5fc-450c-b856-1e6319d991aa",
+      "sub_steps": []
+    },
+    {
+      "id": "6df2fcd4-2721-4473-bf0a-f8c9006a4c51",
+      "name": "Click on button shippingPolicies (returnPolicy)",
+      "action_id": "9ba17073-8e71-43a1-8ae6-bcbd981af222",
+      "timestamp": 1773407207829,
+      "target_name": "button_shippingPolicies",
+      "target_test_object_id": "23abd743-a482-4bc1-957a-54d5ff16d13f",
+      "sub_steps": []
+    },
+    {
+      "id": "89cd1611-862e-4be2-bcff-9141a031e9ed",
+      "name": "Click on link cartItems (cart) -> Navigate to page '/cart'",
+      "action_id": "0f66f0ec-3e25-48fd-8130-2be17dedf49a",
+      "timestamp": 1773407220567,
+      "target_name": "link_cartItems",
+      "target_test_object_id": "63fb17be-4938-465a-8315-161f0ba767b3",
+      "sub_steps": []
+    },
+    {
+      "id": "aded55e5-cd3e-4f87-b8ae-0aa29391ed08",
+      "name": "Click on button cart3",
+      "action_id": "3c3fc9f6-daae-4e39-a6d4-1d7ee91845c9",
+      "timestamp": 1773407235956,
+      "target_name": "button_cart3",
+      "target_test_object_id": "fcd196ec-752e-4d9a-bbb3-3c1772b2a8a6",
+      "sub_steps": []
+    },
+    {
+      "id": "109e52c5-2c22-4f32-8c6a-5ecac06e0880",
+      "name": "Click on button cart3",
+      "action_id": "616f2eef-5a4e-469e-8e3c-c2fa35396e21",
+      "timestamp": 1773407235999,
+      "target_name": "button_cart3",
+      "target_test_object_id": "fcd196ec-752e-4d9a-bbb3-3c1772b2a8a6",
+      "sub_steps": []
+    },
+    {
+      "id": "f16af9eb-c9d5-4070-acfd-5ec0dcce843a",
+      "name": "Click on link productNavigation (home2) -> Navigate to page '/'",
+      "action_id": "0093289c-3cfb-47c3-8afe-825fc34df8f4",
+      "timestamp": 1773407255817,
+      "target_name": "link_productNavigation",
+      "target_test_object_id": "afeef1ad-9967-4014-a403-ff59616ec409",
+      "sub_steps": []
+    },
+    {
+      "id": "69c37419-462d-4101-a55e-c98f1e38e405",
+      "name": "Click on link contact2 -> Navigate to page '/contact'",
+      "action_id": "2cf491a9-8d45-4cd8-8d7e-54c4539094cb",
+      "timestamp": 1773407263082,
+      "target_name": "link_contact2",
+      "target_test_object_id": "6a61bea9-008d-4c7a-a019-0caef5ff5b54",
+      "sub_steps": []
+    },
+    {
+      "id": "7cfed23b-109b-44ce-9385-27374dbf197b",
+      "name": "Select option with input value from select subject",
+      "action_id": "f04be1e2-237b-4464-8f07-912b53d30aaf",
+      "timestamp": 1773407271128,
+      "target_name": "select_subject",
+      "target_test_object_id": "b6b81b9e-4073-4724-b8e2-3332485d0028",
+      "sub_steps": []
+    },
+    {
+      "id": "dac0d549-a98a-4aac-a873-aa9ad04f60a3",
+      "name": "Enter input value in textarea message",
+      "action_id": "134a7db1-ec80-4e32-9432-23850523b59d",
+      "timestamp": 1773407276693,
+      "target_name": "textarea_message",
+      "target_test_object_id": "404f5974-c24e-4b8b-b376-08a635ba8bc0",
+      "sub_steps": []
+    },
+    {
+      "id": "b6a71abf-a1e7-432e-a37b-9074d7174f07",
+      "name": "Click on button sendMessage",
+      "action_id": "855364d9-fc79-4136-94f7-328c9ef9d102",
+      "timestamp": 1773407282356,
+      "target_name": "button_sendMessage",
+      "target_test_object_id": "7c8d6f42-49ed-470c-93d1-5cdd0bb21f6a",
+      "sub_steps": []
+    },
+    {
+      "id": "2d44563b-16a2-4c1a-a9e5-3a2d569a753c",
+      "name": "Click on link productNavigation (products) -> Navigate to page '/product'",
+      "action_id": "7632956c-efc7-42ff-87b9-fb29f480b7aa",
+      "timestamp": 1773407300539,
+      "target_name": "link_productNavigation",
+      "target_test_object_id": "e3fead84-4453-4d75-8f00-e487ef0e7038",
+      "sub_steps": []
+    },
+    {
+      "id": "4a29af4a-0187-4aab-ab04-c919e61f45af",
+      "name": "Click on button logout2 -> Navigate to page '/product/*'",
+      "action_id": "9ee785a5-c987-4951-b661-e91268c8095a",
+      "timestamp": 1773407307336,
+      "target_name": "button_logout2",
+      "target_test_object_id": "fc26fc3a-0699-4644-8d81-794245341aec",
+      "sub_steps": []
+    },
+    {
+      "id": "c5f7ddd5-7d05-4179-b404-2b5022e0b55e",
+      "name": "Click on link cart14 -> Navigate to page '/'",
+      "action_id": "d8cb0a17-3e78-40c1-a40c-ec27ae377d12",
+      "timestamp": 1773407343345,
+      "target_name": "link_cart14",
+      "target_test_object_id": "6b1132e4-8d7a-4e02-879d-5767aa39b1c2",
+      "sub_steps": []
+    },
+    {
+      "id": "68ef09cc-d4cd-4fce-ad52-cf13926451d6",
+      "name": "Click on link register -> Navigate to page '/register'",
+      "action_id": "2f368509-2585-436b-825e-b2551cb0de4c",
+      "timestamp": 1773407378375,
+      "target_name": "link_register",
+      "target_test_object_id": "1181bfbd-6eed-4f0e-b8d7-5f0abdb65654",
+      "sub_steps": []
+    },
+    {
+      "id": "969b4911-61dd-4375-9974-c433c74eeee8",
+      "name": "Login -> Navigate to page '/'",
+      "action_id": "bace728f-d267-4ef9-a7f5-726ea11dbc2e",
+      "timestamp": 1773407385401,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "b7da4be1-ad68-46c2-bff2-cd688a612a50",
+      "name": "Click on button logout",
+      "action_id": "19683804-f713-4a41-bc0b-071f8952edc9",
+      "timestamp": 1773407403641,
+      "target_name": "button_logout",
+      "target_test_object_id": "69cc19d6-088f-4c59-aa42-76459ed7b977",
+      "sub_steps": []
+    },
+    {
+      "id": "9a4d4f9f-3a45-453d-ab87-9975069dffb1",
+      "name": "Click on button addToCart3",
+      "action_id": "99c874d8-2396-4602-a2dc-6c124095477e",
+      "timestamp": 1773407410897,
+      "target_name": "button_addToCart3",
+      "target_test_object_id": "0de1a355-722c-4efa-9847-9feecaed8811",
+      "sub_steps": []
+    },
+    {
+      "id": "38439e03-7bcd-4970-ab0e-b9902f346ec2",
+      "name": "Click on button addToCart5 -> Navigate to page ''",
+      "action_id": "a835ac8a-6e31-494e-b01c-009f97e5528d",
+      "timestamp": 1773407418841,
+      "target_name": "button_addToCart5",
+      "target_test_object_id": "dee2a65c-412d-4df6-8d39-93d2f9998b97",
+      "sub_steps": []
+    },
+    {
+      "id": "15eca014-d9cc-4c0d-a7f9-e4a9afcf5329",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

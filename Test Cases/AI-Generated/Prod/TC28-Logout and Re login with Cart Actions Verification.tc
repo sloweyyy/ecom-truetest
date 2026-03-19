@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add items to the cart, logout, register and login again, check cart items, and verify navigation to the home page.</description>
+   <name>TC28-Logout and Re login with Cart Actions Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26f58992-0fc9-49c9-baf1-06c0168b4f62</testCaseGuid>
+   <variable>
+      <defaultValue>'11 x \\\\'</defaultValue>
+      <description>Step 8: Click on button cartActions (object) - (Dynamic locator variable)</description>
+      <id>fb5af28c-6e5a-445a-8611-201d4b21f4c6</id>
+      <masked>false</masked>
+      <name>button_cartActions_DivInternalHasText</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 9: Click on button cartActions (cartAdd2) - (Dynamic locator variable)</description>
+      <id>f911d867-6c1f-4f3e-a32f-a5ad0b433c83</id>
+      <masked>false</masked>
+      <name>button_cartActions_DivInternalHasText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\"col-lg-4\\\\ col-md-6\\"] button:nth-of-type(2)'</defaultValue>
+      <description>Step 8: Click on button cartActions (object) - (Dynamic locator variable)</description>
+      <id>07120595-1f8e-4f9c-b2a4-23b60b792ae5</id>
+      <masked>false</masked>
+      <name>button_cartActions_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'div:nth-of-type(2) &gt; .row button:nth-of-type(1)'</defaultValue>
+      <description>Step 9: Click on button cartActions (cartAdd2) - (Dynamic locator variable)</description>
+      <id>95007465-c589-4f7b-b260-c2a5d37c4fe5</id>
+      <masked>false</masked>
+      <name>button_cartActions_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart (2)'</defaultValue>
+      <description>Step 7: Click on link cartItems (cart10) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>0d70bc63-5d59-4c12-85ea-108b5d553d57</id>
+      <masked>false</masked>
+      <name>link_cartItems_AInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart (1)'</defaultValue>
+      <description>Step 15: Click on link cartItems (cart4) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>d762097c-7beb-4113-aef8-99fce99fd440</id>
+      <masked>false</masked>
+      <name>link_cartItems_AInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <description>Step 7: Click on link cartItems (cart10) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>3ea75c79-9d1b-4a11-ae8b-c598fe2c910f</id>
+      <masked>false</masked>
+      <name>link_cartItems_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'a:nth-of-type(3)'</defaultValue>
+      <description>Step 15: Click on link cartItems (cart4) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>21dc1b39-b317-4d8a-b266-92f9ed191fbc</id>
+      <masked>false</masked>
+      <name>link_cartItems_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Home'</defaultValue>
+      <description>Step 13: Click on link productNavigation (home2) -&gt; Navigate to page '/' - (Dynamic locator variable)</description>
+      <id>b1eaed0b-1d96-4bd9-b55c-be369a49a4cb</id>
+      <masked>false</masked>
+      <name>link_productNavigation_AInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'li:nth-of-type(1) &gt; .nav-link'</defaultValue>
+      <description>Step 13: Click on link productNavigation (home2) -&gt; Navigate to page '/' - (Dynamic locator variable)</description>
+      <id>44b20f7b-7c76-48dc-b980-cd5e3e7089bc</id>
+      <masked>false</masked>
+      <name>link_productNavigation_css_value</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>7b74d012-76eb-4aae-8ba0-189be0ac1553</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>

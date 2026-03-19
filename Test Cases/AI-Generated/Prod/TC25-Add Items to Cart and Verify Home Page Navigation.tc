@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to home, add items to the cart, check product details, return to home, and verify the home page.</description>
+   <name>TC25-Add Items to Cart and Verify Home Page Navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b90d55be-fb6d-40f8-9289-42f309515578</testCaseGuid>
+   <variable>
+      <defaultValue>'Cart (2)'</defaultValue>
+      <description>Step 6: Click on link cartItems (cart2) -&gt; Navigate to page '' - (Dynamic locator variable)</description>
+      <id>77a89443-221e-4aea-80cf-8e83eb019a75</id>
+      <masked>false</masked>
+      <name>link_cartItems_AInternalText_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'a:nth-of-type(3)'</defaultValue>
+      <description>Step 6: Click on link cartItems (cart2) -&gt; Navigate to page '' - (Dynamic locator variable)</description>
+      <id>8bb7c3dd-e816-4c67-a43f-20448bbc54de</id>
+      <masked>false</masked>
+      <name>link_cartItems_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Products'</defaultValue>
+      <description>Step 4: Click on link productNavigation (products) -&gt; Navigate to page '/product' - (Dynamic locator variable)</description>
+      <id>2c24a7f5-d158-4dd7-9ead-2f51661b195f</id>
+      <masked>false</masked>
+      <name>link_productNavigation_AInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'li:nth-of-type(2) &gt; .nav-link'</defaultValue>
+      <description>Step 4: Click on link productNavigation (products) -&gt; Navigate to page '/product' - (Dynamic locator variable)</description>
+      <id>8b344909-1f6b-43c5-bb60-04b19ca3ba4c</id>
+      <masked>false</masked>
+      <name>link_productNavigation_css_value_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>f2492614-c9f5-4dcb-9a5e-153873cd65ec</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>

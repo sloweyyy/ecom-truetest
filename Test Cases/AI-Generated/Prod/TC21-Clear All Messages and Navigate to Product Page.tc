@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to admin contact messages, clear all messages, add a product to the cart, and verify the home page.</description>
+   <name>TC21-Clear All Messages and Navigate to Product Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe4eab8d-eb1c-487f-a3d8-50caf49905ae</testCaseGuid>
+   <variable>
+      <defaultValue>'\\\\31 '</defaultValue>
+      <description>Step 4: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
+      <id>5ee83d16-71c7-4b89-8661-b57a3820a74d</id>
+      <masked>false</masked>
+      <name>button_addToCart_Id_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\\"\\\\31 \\"] button'</defaultValue>
+      <description>Step 4: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
+      <id>4cfd7fca-6dd8-43c4-9418-c9761d36a64d</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart (1)'</defaultValue>
+      <description>Step 5: Click on link cartItems (cart10) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>9f8a44da-eee6-4c68-a7fd-4f943a86fadd</id>
+      <masked>false</masked>
+      <name>link_cartItems_AInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'a:nth-of-type(3)'</defaultValue>
+      <description>Step 5: Click on link cartItems (cart10) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>c0486c70-3c35-4967-9ef3-28b1351bf9a4</id>
+      <masked>false</masked>
+      <name>link_cartItems_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Products'</defaultValue>
+      <description>Step 3: Click on link productNavigation (products) -&gt; Navigate to page '/product' - (Dynamic locator variable)</description>
+      <id>9b49e182-c1cc-480a-829b-2e3ad2a97e0a</id>
+      <masked>false</masked>
+      <name>link_productNavigation_AInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'li:nth-of-type(2) &gt; .nav-link'</defaultValue>
+      <description>Step 3: Click on link productNavigation (products) -&gt; Navigate to page '/product' - (Dynamic locator variable)</description>
+      <id>9f5b9b62-97d4-4561-a8f5-8915ef2ab3b4</id>
+      <masked>false</masked>
+      <name>link_productNavigation_css_value_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>99f1726f-d3b5-427f-a4d7-9d728d830d3a</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>

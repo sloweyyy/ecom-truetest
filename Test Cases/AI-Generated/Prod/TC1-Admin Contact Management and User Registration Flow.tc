@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to admin contact messages, clear all messages, logout, register a new user, and verify the home page.</description>
+   <name>TC1-Admin Contact Management and User Registration Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a322f78-81f9-4036-8d91-8e6d8c0f4438</testCaseGuid>
+   <variable>
+      <defaultValue>'Cart (1)'</defaultValue>
+      <description>Step 10: Click on link cartItems (cart) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>8cbe9c8e-71be-4bd3-af32-b2a28e0a9e57</id>
+      <masked>false</masked>
+      <name>link_cartItems_AInternalText_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <description>Step 10: Click on link cartItems (cart) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>3369a875-ec14-44ac-b7f6-facc592debaf</id>
+      <masked>false</masked>
+      <name>link_cartItems_css_value_2</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>437dd206-4dea-4bee-a1d3-43b426ce06e0</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>

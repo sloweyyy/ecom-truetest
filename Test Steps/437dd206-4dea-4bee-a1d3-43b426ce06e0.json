@@ -1,0 +1,136 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "96c7276a-bdc1-4258-a7b4-45262b3373a1",
+      "name": "Navigate to /",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "7ef46849-d580-4f8b-a04a-6d4831b06f0a",
+      "name": "Click on link admin -> Navigate to page '/admin/contact-messages'",
+      "action_id": "82044a3b-5c98-4210-b4d5-be85fa852283",
+      "timestamp": 1773301119607,
+      "target_name": "link_admin",
+      "target_test_object_id": "0eb0eee2-4fd4-42b2-909f-5603e3789847",
+      "sub_steps": []
+    },
+    {
+      "id": "52276b22-d56b-4472-a153-ee1d9ca4b9fc",
+      "name": "Click on button clearAll",
+      "action_id": "0a0897ff-a82b-4bee-8b0f-9de433ddb257",
+      "timestamp": 1773301120835,
+      "target_name": "button_clearAll",
+      "target_test_object_id": "006de157-f2a8-4569-b264-8fa9a15f91cd",
+      "sub_steps": []
+    },
+    {
+      "id": "925e8eea-2595-42e7-938e-98ec3bb8638c",
+      "name": "Click on button logout -> Navigate to page '/'",
+      "action_id": "b4b53dac-5386-4d6d-8a94-d4be430d12f1",
+      "timestamp": 1773301125364,
+      "target_name": "button_logout",
+      "target_test_object_id": "5c651abf-f16c-449e-b0f1-cbd2bcc3d4bd",
+      "sub_steps": []
+    },
+    {
+      "id": "1a4e3c87-dc24-4c40-9621-76d549190ac1",
+      "name": "Click on link register -> Navigate to page '/register'",
+      "action_id": "877a62d6-8cbe-4e56-bb55-3b7263818c5a",
+      "timestamp": 1773301126132,
+      "target_name": "link_register",
+      "target_test_object_id": "1181bfbd-6eed-4f0e-b8d7-5f0abdb65654",
+      "sub_steps": []
+    },
+    {
+      "id": "e1199ee1-8526-4075-a5bc-1c673001856d",
+      "name": "Click on form register",
+      "action_id": "8a73faf3-95e3-4dd8-a250-a0885b5b58ec",
+      "timestamp": 1773301127314,
+      "target_name": "form_register",
+      "target_test_object_id": "d26baa16-e1f6-42a9-8774-b18eeb2dff84",
+      "sub_steps": []
+    },
+    {
+      "id": "099a9dee-b62a-4bd2-8738-9357eb8381b9",
+      "name": "Login",
+      "action_id": "fb6e885f-b3ee-45d0-87db-73177614fba2",
+      "timestamp": 1773301128531,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "50e4d5b2-3a1a-4873-b77e-0f27124b10e9",
+      "name": "Click on form register",
+      "action_id": "8ba4b513-8eeb-4a0a-9d59-43aa56dcf4b6",
+      "timestamp": 1773301132876,
+      "target_name": "form_register",
+      "target_test_object_id": "d26baa16-e1f6-42a9-8774-b18eeb2dff84",
+      "sub_steps": []
+    },
+    {
+      "id": "a120bd6f-c4d1-4be2-b302-8f9792b95f3e",
+      "name": "Login -> Navigate to page '/'",
+      "action_id": "8d2fba90-a51f-48d7-87ce-7c2eb04e6a89",
+      "timestamp": 1773301133101,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "ce73d072-74a4-44a5-ae7b-21fd6b418a07",
+      "name": "Click on link cartItems (cart) -> Navigate to page '/cart'",
+      "action_id": "6a283f13-e9d0-4907-91bc-a916f50f4229",
+      "timestamp": 1773301145164,
+      "target_name": "link_cartItems",
+      "target_test_object_id": "19b09693-8ad4-4f01-a08d-630e4819a224",
+      "sub_steps": []
+    },
+    {
+      "id": "4611e7ae-add9-4621-8770-165b2bd8d6d8",
+      "name": "Click on button logout -> Navigate to page '/'",
+      "action_id": "5c019116-29e5-4d32-b237-c639fcccbf9c",
+      "timestamp": 1773301145947,
+      "target_name": "button_logout",
+      "target_test_object_id": "6c56cfc9-186c-4534-b8d8-88f249b1cb00",
+      "sub_steps": []
+    },
+    {
+      "id": "41a132b4-b586-4fee-b4e0-b221c6b8a352",
+      "name": "Click on link login -> Navigate to page '/login'",
+      "action_id": "5103f34c-94e8-4c19-add9-2e29fd856609",
+      "timestamp": 1773301147831,
+      "target_name": "link_login",
+      "target_test_object_id": "d6ee418a-0ca2-4b74-9bfe-0224ee6ebf06",
+      "sub_steps": []
+    },
+    {
+      "id": "59596312-6649-4005-adc6-30aff6dd5aed",
+      "name": "Login",
+      "action_id": "12ce5fa5-65f9-47b7-82f9-0da09fc3559a",
+      "timestamp": 1773301148755,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "3464ee8f-6e2d-4d24-9a0b-625ba24e24ce",
+      "name": "Click on div demoCredentials -> Navigate to page ''",
+      "action_id": "8225c469-ea1b-4436-8f78-73914098ba8c",
+      "timestamp": 1773301149181,
+      "target_name": "div_demoCredentials",
+      "target_test_object_id": "c84d6939-d890-4508-9db1-87dc5bf85fc1",
+      "sub_steps": []
+    },
+    {
+      "id": "70cdc748-0a29-40a3-b29c-39a65222e4bb",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

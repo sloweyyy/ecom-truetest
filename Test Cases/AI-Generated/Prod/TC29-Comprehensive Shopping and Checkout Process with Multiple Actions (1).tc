@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate through clothing categories, add items to the cart, clear the cart, and complete the checkout process. Includes logging in and sending messages.</description>
+   <name>TC29-Comprehensive Shopping and Checkout Process with Multiple Actions (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b56605aa-edb8-4de9-8e92-83d974e0296c</testCaseGuid>
+   <variable>
+      <defaultValue>'\\\\35 '</defaultValue>
+      <description>Step 17: Click on button addToCart (addToCart11) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>f10e9646-bb3b-47bc-88e3-d8088717db56</id>
+      <masked>false</masked>
+      <name>button_addToCart_Id</name>
+   </variable>
+   <variable>
+      <defaultValue>'\\\\31 '</defaultValue>
+      <description>Step 24: Click on button addToCart (addToCart12) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>a9ffeed0-ace0-4a94-af18-36a2a55b6179</id>
+      <masked>false</masked>
+      <name>button_addToCart_Id_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'\\\\32 '</defaultValue>
+      <description>Step 38: Click on button addToCart (addToCart13) - (Dynamic locator variable)</description>
+      <id>6e0f771a-ca08-43c8-9dc3-4a47cd3850b0</id>
+      <masked>false</masked>
+      <name>button_addToCart_Id_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\\"\\\\35 \\"] button'</defaultValue>
+      <description>Step 17: Click on button addToCart (addToCart11) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>45da4cf1-641c-4a5c-b379-6f90e18774fa</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\\"\\\\31 \\"] button'</defaultValue>
+      <description>Step 24: Click on button addToCart (addToCart12) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>1b8464ec-25cf-45b0-bee5-69ccd0924f46</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\\"\\\\32 \\"] button'</defaultValue>
+      <description>Step 38: Click on button addToCart (addToCart13) - (Dynamic locator variable)</description>
+      <id>2c65d07d-69a9-428e-84d9-065df2d94c52</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 18: Click on button cartActions (object10) - (Dynamic locator variable)</description>
+      <id>11a69261-fb6f-4456-8bed-3ae3b1b0d7fd</id>
+      <masked>false</masked>
+      <name>button_cartActions_DivInternalHasText</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 19: Click on button cartActions (cartAction6) - (Dynamic locator variable)</description>
+      <id>76ef2a5d-dd8f-4749-a738-81a77984d4d7</id>
+      <masked>false</masked>
+      <name>button_cartActions_DivInternalHasText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 20: Click on button cartActions (cart4) - (Dynamic locator variable)</description>
+      <id>2431cd80-93f6-476b-adaf-9d8cb7ef8a91</id>
+      <masked>false</masked>
+      <name>button_cartActions_DivInternalHasText_2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 21: Click on button cartActions (actionIcon) - (Dynamic locator variable)</description>
+      <id>080b716f-978b-4fe6-9727-5c776e827497</id>
+      <masked>false</masked>
+      <name>button_cartActions_DivInternalHasText_3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 13: Click on button cartActions (cartAction4) - (Dynamic locator variable)</description>
+      <id>36865449-0e3c-4828-93de-cfafbfef174a</id>
+      <masked>false</masked>
+      <name>button_cartActions_DivInternalHasText_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'11 x \\\\'</defaultValue>
+      <description>Step 14: Click on button cartActions (object4) - (Dynamic locator variable)</description>
+      <id>c570b72a-c875-4db1-9365-705c8638c0ac</id>
+      <masked>false</masked>
+      <name>button_cartActions_DivInternalHasText_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\"col-lg-4\\\\ col-md-6\\"] button:nth-of-type(2)'</defaultValue>
+      <description>Step 18: Click on button cartActions (object10) - (Dynamic locator variable)</description>
+      <id>84fce4f6-fc34-4a9f-ab25-bc1d52947b60</id>
+      <masked>false</masked>
+      <name>button_cartActions_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'div:nth-of-type(2) &gt; .row button:nth-of-type(2)'</defaultValue>
+      <description>Step 19: Click on button cartActions (cartAction6) - (Dynamic locator variable)</description>
+      <id>0e0c0a96-b59b-4879-9903-3766a8a9df78</id>
+      <masked>false</masked>
+      <name>button_cartActions_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'div:nth-of-type(3) &gt; .row button:nth-of-type(2)'</defaultValue>
+      <description>Step 20: Click on button cartActions (cart4) - (Dynamic locator variable)</description>
+      <id>ecdef747-6672-48d5-ab33-5157b5c6dac5</id>
+      <masked>false</masked>
+      <name>button_cartActions_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\"col-lg-4\\\\ col-md-6\\"] button:nth-of-type(2)'</defaultValue>
+      <description>Step 21: Click on button cartActions (actionIcon) - (Dynamic locator variable)</description>
+      <id>098df95b-f6d4-4054-b5f2-c085cccf69c3</id>
+      <masked>false</masked>
+      <name>button_cartActions_css_value_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\"col-lg-4\\\\ col-md-6\\"] button:nth-of-type(1)'</defaultValue>
+      <description>Step 13: Click on button cartActions (cartAction4) - (Dynamic locator variable)</description>
+      <id>2a89f98c-360d-4fe9-aef5-7e8b3a2e52f0</id>
+      <masked>false</masked>
+      <name>button_cartActions_css_value_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'div:nth-of-type(1) &gt; .row &gt; [class=\\"col-lg-4\\\\ col-md-6\\"] button:nth-of-type(1)'</defaultValue>
+      <description>Step 14: Click on button cartActions (object4) - (Dynamic locator variable)</description>
+      <id>2ca05e52-a8f7-4e0c-a158-d8cb952d4525</id>
+      <masked>false</masked>
+      <name>button_cartActions_css_value_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'Men\'s Clothing'</defaultValue>
+      <description>Step 2: Click on button clothingCategories (mensClothing) - (Dynamic locator variable)</description>
+      <id>280da115-db74-485b-b6b2-e20f265acfe5</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_ButtonInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Women\'s Clothing'</defaultValue>
+      <description>Step 3: Click on button clothingCategories (womensClothing) - (Dynamic locator variable)</description>
+      <id>0114e59b-6e25-4284-a72e-c1ea7af466da</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_ButtonInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jewelery'</defaultValue>
+      <description>Step 4: Click on button clothingCategories (selectJewelery) - (Dynamic locator variable)</description>
+      <id>4fedd6aa-4b9a-4d2f-9c01-5c6c84ed4c9c</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_ButtonInternalText_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Electronics'</defaultValue>
+      <description>Step 5: Click on button clothingCategories (electronics) - (Dynamic locator variable)</description>
+      <id>ab0d55bc-23ab-4675-9206-0e3e9b73ac34</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_ButtonInternalText_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'All'</defaultValue>
+      <description>Step 6: Click on button clothingCategories (all) - (Dynamic locator variable)</description>
+      <id>f7b17f1a-7e11-41e7-8f4a-17cc49edfefa</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_ButtonInternalText_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Men\'s Clothing'</defaultValue>
+      <description>Step 7: Click on button clothingCategories (mensClothing) - (Dynamic locator variable)</description>
+      <id>2a9d863e-ffa2-453d-a05c-fde143fa5afe</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_ButtonInternalText_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(2)'</defaultValue>
+      <description>Step 2: Click on button clothingCategories (mensClothing) - (Dynamic locator variable)</description>
+      <id>b15dd130-298c-41f3-ae36-b0988f93553d</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(3)'</defaultValue>
+      <description>Step 3: Click on button clothingCategories (womensClothing) - (Dynamic locator variable)</description>
+      <id>89267e19-9e52-4d0d-872f-21373ec99de9</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(4)'</defaultValue>
+      <description>Step 4: Click on button clothingCategories (selectJewelery) - (Dynamic locator variable)</description>
+      <id>3963ae86-011f-4cd5-b014-dbb905f5e7bf</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(5)'</defaultValue>
+      <description>Step 5: Click on button clothingCategories (electronics) - (Dynamic locator variable)</description>
+      <id>e8e761dc-0347-4d06-8ba6-6023bd835495</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_css_value_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'.buttons &gt; button:nth-of-type(1)'</defaultValue>
+      <description>Step 6: Click on button clothingCategories (all) - (Dynamic locator variable)</description>
+      <id>1615c25b-c20a-44af-baff-8a88d75f58b1</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_css_value_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(2)'</defaultValue>
+      <description>Step 7: Click on button clothingCategories (mensClothing) - (Dynamic locator variable)</description>
+      <id>45df608e-4760-4fc4-b1b3-cad1a4064be5</id>
+      <masked>false</masked>
+      <name>button_clothingCategories_css_value_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'How long does shipping take?'</defaultValue>
+      <description>Step 40: Click on button shippingPolicies (faqShipping) - (Dynamic locator variable)</description>
+      <id>3ca2be12-8d05-4344-b428-1e2fc2427731</id>
+      <masked>false</masked>
+      <name>button_shippingPolicies_ButtonInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id=\\"faq1\\"] &gt; .accordion-button'</defaultValue>
+      <description>Step 40: Click on button shippingPolicies (faqShipping) - (Dynamic locator variable)</description>
+      <id>36475a92-cd0b-4ee6-93d3-12ec028c5daa</id>
+      <masked>false</masked>
+      <name>button_shippingPolicies_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart (2)'</defaultValue>
+      <description>Step 11: Click on link cartItems (cart2) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>3b37fbd2-0cb3-4cff-9aab-596934d1e8a9</id>
+      <masked>false</masked>
+      <name>link_cartItems_AInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart (1)'</defaultValue>
+      <description>Step 27: Click on link cartItems (cart6) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>f5875fcf-b71e-4a43-9c8f-b25d3de39acc</id>
+      <masked>false</masked>
+      <name>link_cartItems_AInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'a:nth-of-type(3)'</defaultValue>
+      <description>Step 11: Click on link cartItems (cart2) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>a4927863-0b32-4e71-b3a3-90f69f689239</id>
+      <masked>false</masked>
+      <name>link_cartItems_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\\"btn\\\\ btn-outline-dark\\\\ m-2\\"]'</defaultValue>
+      <description>Step 27: Click on link cartItems (cart6) -&gt; Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>347ac672-a737-40f7-aa81-c16c02f3b457</id>
+      <masked>false</masked>
+      <name>link_cartItems_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Products'</defaultValue>
+      <description>Step 33: Click on link productNavigation (products2) -&gt; Navigate to page '/product' - (Dynamic locator variable)</description>
+      <id>e0d0aa9c-025d-4cd6-9772-7b9269f12957</id>
+      <masked>false</masked>
+      <name>link_productNavigation_AInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Home'</defaultValue>
+      <description>Step 15: Click on link productNavigation (home) -&gt; Navigate to page '/' - (Dynamic locator variable)</description>
+      <id>c5733b70-33a4-4cee-b3af-b9a886a782ce</id>
+      <masked>false</masked>
+      <name>link_productNavigation_AInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'li:nth-of-type(2) &gt; .nav-link'</defaultValue>
+      <description>Step 33: Click on link productNavigation (products2) -&gt; Navigate to page '/product' - (Dynamic locator variable)</description>
+      <id>e593ca18-fb22-4a74-afaf-46ef1338e5d6</id>
+      <masked>false</masked>
+      <name>link_productNavigation_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'li:nth-of-type(1) &gt; .nav-link'</defaultValue>
+      <description>Step 15: Click on link productNavigation (home) -&gt; Navigate to page '/' - (Dynamic locator variable)</description>
+      <id>03f183e4-9291-4b34-b1ea-9d79dda6880b</id>
+      <masked>false</masked>
+      <name>link_productNavigation_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[{"index":1,"label":"General Inquiry","value":"general"}]'</defaultValue>
+      <description>Step 36: Send multiple messages through contact form - (Input data variable)</description>
+      <id>dbb0f020-1fac-4036-99ab-9021262fea3f</id>
+      <masked>false</masked>
+      <name>select_subject</name>
+   </variable>
+   <variable>
+      <defaultValue>'[{"index":1,"label":"General Inquiry","value":"general"}]'</defaultValue>
+      <description>Step 39: Send multiple messages with selected subjects to the support team - (Input data variable)</description>
+      <id>17ed5f02-cdf8-47b0-b894-1f2ad1dc6c32</id>
+      <masked>false</masked>
+      <name>select_subject_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[{"index":1,"label":"General Inquiry","value":"general"}]'</defaultValue>
+      <description>Step 39: Send multiple messages with selected subjects to the support team - (Input data variable)</description>
+      <id>4ce4f5b1-0feb-48df-850d-431511c46968</id>
+      <masked>false</masked>
+      <name>select_subject_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hi'</defaultValue>
+      <description>Step 36: Send multiple messages through contact form - (Input data variable)</description>
+      <id>8821236f-be8f-4bac-870e-5f6d49acd969</id>
+      <masked>false</masked>
+      <name>textarea_message</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test message with &lt;script&gt;alert(\'XSS\')&lt;/script&gt; and special chars: \' " &amp; &lt; &gt; `'</defaultValue>
+      <description>Step 39: Send multiple messages with selected subjects to the support team - (Input data variable)</description>
+      <id>53a5acba-4c10-47dd-8167-3f5dd06a3681</id>
+      <masked>false</masked>
+      <name>textarea_message_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a valid test message'</defaultValue>
+      <description>Step 36: Send multiple messages through contact form - (Input data variable)</description>
+      <id>4eb58a6b-885e-4c0b-b61d-c9af9143289d</id>
+      <masked>false</masked>
+      <name>textarea_message_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. This is a very long message. '</defaultValue>
+      <description>Step 39: Send multiple messages with selected subjects to the support team - (Input data variable)</description>
+      <id>16cf7b76-ef41-461c-a46f-e3a7f347620a</id>
+      <masked>false</masked>
+      <name>textarea_message_3</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>08a5be3e-1f35-4bc4-a3b5-6189efa24ba6</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>

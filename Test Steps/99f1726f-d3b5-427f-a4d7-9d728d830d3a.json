@@ -1,0 +1,73 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "98392fa4-bd67-4189-8329-faff51147188",
+      "name": "Navigate to /admin/contact-messages",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "86c371bf-cad2-4688-abd0-d11b1657dfd2",
+      "name": "Click on button clearAll2 -> Navigate to page '/'",
+      "action_id": "47b2c1e1-557b-4709-b27d-6fb5e78041fb",
+      "timestamp": 1773393326239,
+      "target_name": "button_clearAll2",
+      "target_test_object_id": "91888fde-dad0-4702-84e7-d6ebfaf56ff5",
+      "sub_steps": []
+    },
+    {
+      "id": "71f25ea1-63b8-4a65-98a2-063766f3618b",
+      "name": "Click on link productNavigation (products) -> Navigate to page '/product'",
+      "action_id": "eaca8809-764d-466e-9794-1e7be401f285",
+      "timestamp": 1773393360565,
+      "target_name": "link_productNavigation",
+      "target_test_object_id": "46c8fc01-7a50-482e-a122-f2f645c24c2a",
+      "sub_steps": []
+    },
+    {
+      "id": "ada9317d-006c-4ecd-baab-635a31d01a32",
+      "name": "Click on button addToCart (addToCart2)",
+      "action_id": "d5f24aa2-a686-4829-84b5-bcd933b87f81",
+      "timestamp": 1773393368117,
+      "target_name": "button_addToCart",
+      "target_test_object_id": "31f95ee4-f44f-4c99-a211-6c30384ca6cd",
+      "sub_steps": []
+    },
+    {
+      "id": "d590f0ce-4621-4f9d-90cf-4d3c12d7ba4b",
+      "name": "Click on link cartItems (cart10) -> Navigate to page '/cart'",
+      "action_id": "a35f9657-5d5e-4c5d-aeb5-0c31a5d34513",
+      "timestamp": 1773393389737,
+      "target_name": "link_cartItems",
+      "target_test_object_id": "ff1d1d2d-fb43-42fe-823f-a9e88468de90",
+      "sub_steps": []
+    },
+    {
+      "id": "ce0c8df9-be3e-4473-88d2-f06702c60609",
+      "name": "Click on button object2",
+      "action_id": "8164b2f5-41a0-46b3-9af4-a43e046d1d63",
+      "timestamp": 1773393396385,
+      "target_name": "button_object2",
+      "target_test_object_id": "ce8d4f09-87d4-450a-874d-f5e8364ec266",
+      "sub_steps": []
+    },
+    {
+      "id": "310d6c82-1520-4f89-9e17-6dd58c1dcf81",
+      "name": "Click on button object2 -> Navigate to page ''",
+      "action_id": "6d7cc610-5a16-4b6a-8b49-47664738c819",
+      "timestamp": 1773393403449,
+      "target_name": "button_object2",
+      "target_test_object_id": "ce8d4f09-87d4-450a-874d-f5e8364ec266",
+      "sub_steps": []
+    },
+    {
+      "id": "14b57d1e-0b06-4d2f-b7e6-4992d0c5d8a7",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}
