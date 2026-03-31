@@ -12,7 +12,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[equals(@class,'btn btn-outline-danger m-2') and equals(@text,' Logout')]</value>
+         <value>//*[equals(@class,'btn btn-outline-danger m-2') and equals(@text,'Logout')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -27,7 +27,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>button &gt;&gt; internal:text=\"Logout\"s</value>
+         <value>button &gt;&gt; internal:text="Logout"s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -38,14 +38,14 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-danger m-2</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Logout</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <value>Logout</value>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

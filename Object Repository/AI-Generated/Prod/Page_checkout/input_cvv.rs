@@ -27,7 +27,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=\"CVV\"s</value>
+         <value>internal:label="CVV"s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>cc-cvv</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

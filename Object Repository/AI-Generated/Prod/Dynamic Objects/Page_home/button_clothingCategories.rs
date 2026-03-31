@@ -16,7 +16,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>${button_clothingCategories_css_value_1}</value>
+         <value>${{button_clothingCategories_css_value_1}}</value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -27,7 +27,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>button &gt;&gt; internal:text=\"${button_clothingCategories_ButtonInternalText_1}\"s</value>
+         <value>button &gt;&gt; internal:text="${button_clothingCategories_ButtonInternalText_1}"s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-dark btn-sm m-2</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Men's Clothing</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

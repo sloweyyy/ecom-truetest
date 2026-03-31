@@ -13,7 +13,7 @@
       <entry>
          <key>BASIC</key>
          <value>//*[equals(@id,'state') and equals(@class,'form-select') and equals(@text,'Choose...
-         Punjab')]</value>
+               Punjab')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,7 +28,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=\"State\"s</value>
+         <value>internal:label="State"s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-select</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>state</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Choose...
-      Punjab</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+            Punjab</value>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

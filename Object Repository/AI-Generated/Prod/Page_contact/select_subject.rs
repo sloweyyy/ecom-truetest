@@ -13,11 +13,11 @@
       <entry>
          <key>BASIC</key>
          <value>//*[equals(@id,'subject') and equals(@name,'subject') and equals(@class,'form-control') and equals(@text,'Select a subject
-         General Inquiry
-         Customer Support
-         Order Issue
-         Return/Refund
-         ...[truncated lines=7]')]</value>
+               General Inquiry
+               Customer Support
+               Order Issue
+               Return/Refund
+               ...[truncated lines=7]')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -32,7 +32,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=\"Subject *\"s</value>
+         <value>internal:label="Subject *"s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -43,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>id</name>
       <type>Main</type>
       <value>subject</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>name</name>
       <type>Main</type>
       <value>subject</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,11 +67,11 @@
       <name>text</name>
       <type>Main</type>
       <value>Select a subject
-      General Inquiry
-      Customer Support
-      Order Issue
-      Return/Refund
-      ...[truncated lines=7]</value>
-      <webElementGuid>89cfb6ee-9abf-4b7e-9bf8-2a49451c1b51</webElementGuid>
+            General Inquiry
+            Customer Support
+            Order Issue
+            Return/Refund
+            ...[truncated lines=7]</value>
+      <webElementGuid>10b02f8c-d2d1-49b0-bc1d-43c3a20c8ea1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
