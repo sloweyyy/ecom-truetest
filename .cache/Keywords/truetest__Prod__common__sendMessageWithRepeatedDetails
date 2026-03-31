@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9F2D189B1702AA5B6B926965A9715ADC",
+  "keywordClasses": [
+    {
+      "name": "truetest.Prod.common.sendMessageWithRepeatedDetails",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

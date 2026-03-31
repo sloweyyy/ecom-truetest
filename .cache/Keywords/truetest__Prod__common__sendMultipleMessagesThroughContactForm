@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "5E11CF5D6BDC63F3C19AE29C8AE82318",
+  "keywordClasses": [
+    {
+      "name": "truetest.Prod.common.sendMultipleMessagesThroughContactForm",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

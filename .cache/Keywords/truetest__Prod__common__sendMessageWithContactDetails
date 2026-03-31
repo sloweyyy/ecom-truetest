@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "88B34490D4FF78AA629A9A9B2F5F85FF",
+  "keywordClasses": [
+    {
+      "name": "truetest.Prod.common.sendMessageWithContactDetails",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "BFAE247C68016808AD9F604C0B2EC798",
+  "keywordClasses": [
+    {
+      "name": "truetest.Prod.common.registerNewUser",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

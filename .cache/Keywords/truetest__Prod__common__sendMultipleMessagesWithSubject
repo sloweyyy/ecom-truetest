@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "1B3CBE6DDA2A1A23F749E1CD1F19F43F",
+  "keywordClasses": [
+    {
+      "name": "truetest.Prod.common.sendMultipleMessagesWithSubject",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
